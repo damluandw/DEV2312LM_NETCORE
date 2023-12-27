@@ -1,0 +1,15 @@
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson01\Lab1_Phan2\bin\Debug\net7.0\Lab1_Phan2.exe
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson01\Lab1_Phan2\bin\Debug\net7.0\Lab1_Phan2.deps.json
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson01\Lab1_Phan2\bin\Debug\net7.0\Lab1_Phan2.runtimeconfig.json
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson01\Lab1_Phan2\bin\Debug\net7.0\Lab1_Phan2.dll
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson01\Lab1_Phan2\bin\Debug\net7.0\Lab1_Phan2.pdb
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson01\Lab1_Phan2\obj\Debug\net7.0\Lab1_Phan2.csproj.AssemblyReference.cache
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson01\Lab1_Phan2\obj\Debug\net7.0\Lab1_Phan2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson01\Lab1_Phan2\obj\Debug\net7.0\Lab1_Phan2.AssemblyInfoInputs.cache
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson01\Lab1_Phan2\obj\Debug\net7.0\Lab1_Phan2.AssemblyInfo.cs
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson01\Lab1_Phan2\obj\Debug\net7.0\Lab1_Phan2.csproj.CoreCompileInputs.cache
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson01\Lab1_Phan2\obj\Debug\net7.0\Lab1_Phan2.dll
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson01\Lab1_Phan2\obj\Debug\net7.0\refint\Lab1_Phan2.dll
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson01\Lab1_Phan2\obj\Debug\net7.0\Lab1_Phan2.pdb
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson01\Lab1_Phan2\obj\Debug\net7.0\Lab1_Phan2.genruntimeconfig.cache
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson01\Lab1_Phan2\obj\Debug\net7.0\ref\Lab1_Phan2.dll
