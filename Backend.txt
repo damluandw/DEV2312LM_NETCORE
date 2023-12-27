@@ -1,0 +1,24 @@
+Phần Backend
+- SQL
+- C# Netcore (8b)
+	+ Ngôn ngữ lập trình
+		++ Cú pháp
+		++ Biến, hằng, kiểu dữ liệu, toàn tử, toán hạng
+			Biểu thức, câu lệnh, khối lệnh...
+		++ I/O -> console
+		++ Các cấu trúc điều khiển
+			+++ Lựa chọn/rẽ nhánh : if;switch
+			+++ Lôp: for, while, do ... while, foreach,...
+			++ lệnh nhảy: break, continue, return,...
+		++ Mảng/ ?
+		++ OOP(C#) -> Class/ Object
+			+++ Kế thừa (inhertance)
+			+++ Đóng gói (Encapsolution)
+			+++ Đa hình (Polymorphism)
+			+++ Trừu tượng hoá (Abstraction)
+		++ Collections/ Generic
+
+
+- ASPNetCore MVC (8b)
+- WebAPI(1-2b)
+- MockProject
