@@ -166,6 +166,25 @@
             {
                 Console.WriteLine(flag);
             }
+            // true
+            flag = true;
+            while (flag = !flag)
+            {
+                Console.WriteLine(flag);
+            }
+            //không thực hiện
+            flag = true;
+            while (!flag)
+            {
+                Console.WriteLine(flag);
+            }
+            //không thực hiện
+            flag = true;
+            while (flag)
+            {
+                Console.WriteLine(flag);
+            }
+            //->vô hạn
         }
     }
 }
