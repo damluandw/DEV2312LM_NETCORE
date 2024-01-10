@@ -1,0 +1,15 @@
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson04\Lab5_4\bin\Debug\net7.0\Lab5_4.exe
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson04\Lab5_4\bin\Debug\net7.0\Lab5_4.deps.json
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson04\Lab5_4\bin\Debug\net7.0\Lab5_4.runtimeconfig.json
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson04\Lab5_4\bin\Debug\net7.0\Lab5_4.dll
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson04\Lab5_4\bin\Debug\net7.0\Lab5_4.pdb
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson04\Lab5_4\obj\Debug\net7.0\Lab5_4.csproj.AssemblyReference.cache
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson04\Lab5_4\obj\Debug\net7.0\Lab5_4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson04\Lab5_4\obj\Debug\net7.0\Lab5_4.AssemblyInfoInputs.cache
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson04\Lab5_4\obj\Debug\net7.0\Lab5_4.AssemblyInfo.cs
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson04\Lab5_4\obj\Debug\net7.0\Lab5_4.csproj.CoreCompileInputs.cache
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson04\Lab5_4\obj\Debug\net7.0\Lab5_4.dll
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson04\Lab5_4\obj\Debug\net7.0\refint\Lab5_4.dll
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson04\Lab5_4\obj\Debug\net7.0\Lab5_4.pdb
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson04\Lab5_4\obj\Debug\net7.0\Lab5_4.genruntimeconfig.cache
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson04\Lab5_4\obj\Debug\net7.0\ref\Lab5_4.dll
