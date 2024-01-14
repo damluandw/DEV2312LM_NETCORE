@@ -1,4 +1,6 @@
-﻿namespace Lab5_1_P2
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace Lab5_1_P2
 {
     internal class Program
     {
@@ -64,45 +66,41 @@
                     Console.Write(number + ",");
                 }
             }
-
-            int viTriDau = 0;
-            int viTriCuoi = 0;
+            Console.WriteLine();
             int soLuong = 0;
-            for (int i = 0; i < numbers.Length; i++)
+            int[] numbers2 =  { 56, 45, -6, 41, 5, 12, 12, 23, 32, 43 };
+            soLuong = SoNguyenDuongLienTiep(numbers2, 0, 0);        
+            Console.WriteLine("Số lượng số nguyên dương liền kề: "+soLuong);
+
+        }
+        static int SoNguyenDuongLienTiep(int[] arr,int soLuong, int vitri)
+        {
+            if (soLuong > arr.Length / 2)
             {
-                soLuong++;
-                if (numbers[i] < 0)
+                return soLuong;
+            }                
+            else
+            {
+                soLuong = 0;
+                for (int i = vitri; i < arr.Length; i++)
                 {
-                    int SL2 = 0;
-                    for (int j = i; j < numbers.Length; j++)
-                    {
-                        if (numbers[j] < 0)
-                        {
-
-                        }
+                    
+                    if (arr[i] >= 0)
+                    {                       
+                        soLuong++;
+                        Console.WriteLine(i);
                     }
-                }               
-                
+                    else
+                    {
+                        Console.WriteLine(arr[i]);
+                        SoNguyenDuongLienTiep(arr, soLuong, i+1);
+                    }
+                }
+               
             }
-
+            return soLuong;
 
         }
 
-       /* public int SoNguyenDuongLienTiep(int[] arr, int soLuong)
-        {
-            int sl=0;
-            for (int i = 0; i < arr.Length; i++)
-            {
-                sl++;
-                if (arr[i] < 0)
-                {
-                    SoNguyenDuongLienTiep();
-
-
-                }
-                return sl;
-
-            }
-        }*/
     }
 }
