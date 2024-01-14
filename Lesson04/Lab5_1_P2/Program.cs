@@ -68,9 +68,37 @@ namespace Lab5_1_P2
             }
             Console.WriteLine();
             int soLuong = 0;
-            int[] numbers2 =  { 56, 45, -6, 41, 5, 12, 12, 23, 32, 43 };
+            int[] numbers2 =  { -1, 45, -6, 41, 5, -1, 12, 3, 32, 43 };
             soLuong = SoNguyenDuongLienTiep(numbers2, 0, 0);        
             Console.WriteLine("Số lượng số nguyên dương liền kề: "+soLuong);
+
+            int tong = 0;
+            int dem = 0;
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                if (numbers[i] > 0)
+                {
+                    tong += numbers[i];
+                    dem++;
+                }
+            }
+            Console.WriteLine("TB cong cac phan tu duong la: " + tong/dem);
+            bool kt1 = true;
+            for (int i = 0; i < numbers.Length-1; i++)
+            {
+                if(numbers[i]* numbers[i+1] > 0)
+                {
+                    kt1 = false; break;
+                }
+            }
+            if(kt1)
+            {
+                Console.WriteLine("Mảng chứa các phần tử âm dương đan xen");
+            }
+            else
+            {
+                Console.WriteLine("Mảng không chứa các phần tử âm dương đan xen");
+            }
 
         }
         static int SoNguyenDuongLienTiep(int[] arr,int soLuong, int vitri)
@@ -82,19 +110,29 @@ namespace Lab5_1_P2
             else
             {
                 soLuong = 0;
+                Console.WriteLine("soLuong: " + soLuong);
                 for (int i = vitri; i < arr.Length; i++)
                 {
                     
                     if (arr[i] >= 0)
                     {                       
                         soLuong++;
-                        Console.WriteLine(i);
+                        Console.WriteLine("i:"+ i+ "\tsoLuong  2: " + soLuong);
                     }
-                    else
+                    else if (arr[i] < 0)
                     {
-                        Console.WriteLine(arr[i]);
-                        SoNguyenDuongLienTiep(arr, soLuong, i+1);
+                        Console.WriteLine("arr:"+arr[i]);
+                        int soluong2 = SoNguyenDuongLienTiep(arr, soLuong, i+1);
+                        if(soLuong > soluong2)                        {
+
+                            return soLuong;
+                        }
+                        else
+                        {
+                            return soluong2;
+                        }
                     }
+
                 }
                
             }
