@@ -1,0 +1,15 @@
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson05_ArrayListObject\Lesson05_ArrayListObject\bin\Debug\net7.0\Lesson05_ArrayListObject.exe
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson05_ArrayListObject\Lesson05_ArrayListObject\bin\Debug\net7.0\Lesson05_ArrayListObject.deps.json
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson05_ArrayListObject\Lesson05_ArrayListObject\bin\Debug\net7.0\Lesson05_ArrayListObject.runtimeconfig.json
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson05_ArrayListObject\Lesson05_ArrayListObject\bin\Debug\net7.0\Lesson05_ArrayListObject.dll
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson05_ArrayListObject\Lesson05_ArrayListObject\bin\Debug\net7.0\Lesson05_ArrayListObject.pdb
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson05_ArrayListObject\Lesson05_ArrayListObject\obj\Debug\net7.0\Lesson05_ArrayListObject.csproj.AssemblyReference.cache
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson05_ArrayListObject\Lesson05_ArrayListObject\obj\Debug\net7.0\Lesson05_ArrayListObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson05_ArrayListObject\Lesson05_ArrayListObject\obj\Debug\net7.0\Lesson05_ArrayListObject.AssemblyInfoInputs.cache
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson05_ArrayListObject\Lesson05_ArrayListObject\obj\Debug\net7.0\Lesson05_ArrayListObject.AssemblyInfo.cs
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson05_ArrayListObject\Lesson05_ArrayListObject\obj\Debug\net7.0\Lesson05_ArrayListObject.csproj.CoreCompileInputs.cache
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson05_ArrayListObject\Lesson05_ArrayListObject\obj\Debug\net7.0\Lesson05_ArrayListObject.dll
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson05_ArrayListObject\Lesson05_ArrayListObject\obj\Debug\net7.0\refint\Lesson05_ArrayListObject.dll
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson05_ArrayListObject\Lesson05_ArrayListObject\obj\Debug\net7.0\Lesson05_ArrayListObject.pdb
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson05_ArrayListObject\Lesson05_ArrayListObject\obj\Debug\net7.0\Lesson05_ArrayListObject.genruntimeconfig.cache
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Lesson05_ArrayListObject\Lesson05_ArrayListObject\obj\Debug\net7.0\ref\Lesson05_ArrayListObject.dll
