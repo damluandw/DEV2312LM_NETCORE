@@ -45,35 +45,21 @@ namespace Lab06_1_P2
             }
 
             Console.WriteLine("Xoa sach cua nha xuat ban nhi dong: ");
-            foreach (Book item in array)
-            {
-                Console.WriteLine(item.ToString());
-            }
+        
+            ArrayList arrayRemove = new ArrayList();
+            arrayRemove.AddRange( books);
             //int index = 0;
-            //foreach (Book book in array)
-            //{
-            //    if (book.Publisher =="Nhi Dong")
-            //    {
-            //        Console.WriteLine("xoa");
-            //        //array.RemoveAt(index);
-            //        array.Remove(book);
-            //    }
-            //    else
-            //    {
-            //        index++;
-            //    }
-            //    Console.WriteLine(index);
-            //}
-            array.Remove("Nhi Dong");
-            Console.WriteLine("Danh sach sau khi xoa la: ");
-            foreach (Book book in array)
+            foreach (Book book in arrayRemove)
             {
-                if (book.Title.ToUpper().Contains(search.ToUpper()))
+                if (book.Publisher == "Nhi Dong")
                 {
-                    Console.WriteLine(book.ToString());
+                    array.Remove(book);
                 }
             }
-
+          
+            array.Remove(arrayRemove);
+            Console.WriteLine("Danh sach sau khi xoa la: ");
+            printObject(array);
 
         }
 

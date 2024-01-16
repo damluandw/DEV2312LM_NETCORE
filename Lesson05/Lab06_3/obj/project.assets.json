@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Wind\\.nuget\\packages\\": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\Lesson05\\Lab06_3\\Lab06_3.csproj",
+      "projectUniqueName": "D:\\03.DEVMASTER\\DEV2312LM_NETCORE\\Lesson05\\Lab06_3\\Lab06_3.csproj",
       "projectName": "Lab06_3",
-      "projectPath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\Lesson05\\Lab06_3\\Lab06_3.csproj",
-      "packagesPath": "C:\\Users\\Wind\\.nuget\\packages\\",
-      "outputPath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\Lesson05\\Lab06_3\\obj\\",
+      "projectPath": "D:\\03.DEVMASTER\\DEV2312LM_NETCORE\\Lesson05\\Lab06_3\\Lab06_3.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "D:\\03.DEVMASTER\\DEV2312LM_NETCORE\\Lesson05\\Lab06_3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Wind\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

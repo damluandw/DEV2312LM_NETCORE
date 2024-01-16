@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\Lesson05\\Lesson05_ArrayListObject\\Lesson05_ArrayListObject.csproj": {}
+    "D:\\03.DEVMASTER\\DEV2312LM_NETCORE\\Lesson05\\Lesson05_ArrayListObject\\Lesson05_ArrayListObject.csproj": {}
   },
   "projects": {
-    "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\Lesson05\\Lesson05_ArrayListObject\\Lesson05_ArrayListObject.csproj": {
+    "D:\\03.DEVMASTER\\DEV2312LM_NETCORE\\Lesson05\\Lesson05_ArrayListObject\\Lesson05_ArrayListObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\Lesson05\\Lesson05_ArrayListObject\\Lesson05_ArrayListObject.csproj",
+        "projectUniqueName": "D:\\03.DEVMASTER\\DEV2312LM_NETCORE\\Lesson05\\Lesson05_ArrayListObject\\Lesson05_ArrayListObject.csproj",
         "projectName": "Lesson05_ArrayListObject",
-        "projectPath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\Lesson05\\Lesson05_ArrayListObject\\Lesson05_ArrayListObject.csproj",
-        "packagesPath": "C:\\Users\\Wind\\.nuget\\packages\\",
-        "outputPath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\Lesson05\\Lesson05_ArrayListObject\\obj\\",
+        "projectPath": "D:\\03.DEVMASTER\\DEV2312LM_NETCORE\\Lesson05\\Lesson05_ArrayListObject\\Lesson05_ArrayListObject.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\03.DEVMASTER\\DEV2312LM_NETCORE\\Lesson05\\Lesson05_ArrayListObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Wind\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
