@@ -12,16 +12,27 @@
             student.Name = Console.ReadLine();
             try
             {
-                Console.Write("ID:");
+                Console.Write("TheoryMark:");
                 student.TheoryMark = Convert.ToDouble( Console.ReadLine());
                 if (student.TheoryMark < 0 || student.TheoryMark > 10)
                     throw new InvalidMarkException();
-            }catch (InvalidCastException ex)
+                Console.Write("LabMark:");
+                student.LabMark = Convert.ToDouble(Console.ReadLine());
+                if (student.LabMark < 0 || student.LabMark > 10)
+                    throw new InvalidMarkException();
+            }
+            catch (InvalidCastException ex)
             {
                 Console.WriteLine(ex.ToString());
             }
-            
+            catch (FormatException ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("Khong duoc nhap ky tu cho mang so");
+            }
+
         }
+
     }
 
     public class InvalidMarkException : Exception {
