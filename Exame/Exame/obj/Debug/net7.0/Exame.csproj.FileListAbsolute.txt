@@ -1,0 +1,15 @@
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Exame\Exame\bin\Debug\net7.0\Exame.exe
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Exame\Exame\bin\Debug\net7.0\Exame.deps.json
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Exame\Exame\bin\Debug\net7.0\Exame.runtimeconfig.json
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Exame\Exame\bin\Debug\net7.0\Exame.dll
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Exame\Exame\bin\Debug\net7.0\Exame.pdb
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Exame\Exame\obj\Debug\net7.0\Exame.csproj.AssemblyReference.cache
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Exame\Exame\obj\Debug\net7.0\Exame.GeneratedMSBuildEditorConfig.editorconfig
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Exame\Exame\obj\Debug\net7.0\Exame.AssemblyInfoInputs.cache
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Exame\Exame\obj\Debug\net7.0\Exame.AssemblyInfo.cs
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Exame\Exame\obj\Debug\net7.0\Exame.csproj.CoreCompileInputs.cache
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Exame\Exame\obj\Debug\net7.0\Exame.dll
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Exame\Exame\obj\Debug\net7.0\refint\Exame.dll
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Exame\Exame\obj\Debug\net7.0\Exame.pdb
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Exame\Exame\obj\Debug\net7.0\Exame.genruntimeconfig.cache
+D:\Devmaster\DEV\DEV2312LM_NETCORE\Exame\Exame\obj\Debug\net7.0\ref\Exame.dll
