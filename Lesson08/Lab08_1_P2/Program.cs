@@ -24,7 +24,6 @@ namespace Lab08_1_P2
             Console.WriteLine();
             var queryAll = from book in books select book;
             Show(queryAll,"Danh sach tat ca cac quyen sach");
-
             Console.WriteLine();
             var query = from book in books where book.Price>1000 && book.Price <5000  select book;
             Console.WriteLine();

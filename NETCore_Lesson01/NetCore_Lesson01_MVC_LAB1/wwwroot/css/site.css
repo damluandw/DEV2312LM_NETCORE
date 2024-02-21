@@ -1,0 +1,31 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+
+.img-banner {
+    height: 30rem;
+}
+.img-product-home {
+    max-height: 200px;
+}
+
+.img-product-sz{
+    width: 5rem;
+}

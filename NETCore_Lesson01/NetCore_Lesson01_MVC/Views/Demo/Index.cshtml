@@ -1,0 +1,65 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["title"] = "Index";
+}
+<div class ="jumbotron">
+    <div class="container">
+        <h1>Demo index page</h1>
+        <p>Không gian trưng bày chính của bảo tàng là tòa nhà cao 35,8 m, gồm 4 tầng nổi và một tầng bán âm. Máy bay, xe tăng và nhiều loại khí tài lớn thu được từ các cuộc kháng chiến, gắn bó với nhiều sự kiện, nhân vật lịch sử quan trọng sẽ được trưng bày ở hai khu vực bên cạnh quảng trường, tổng diện tích hơn 20.000 m2.</p>
+        <p>
+            <a asp-controller="Home" asp-action="Index" class="btn btn-primary">QUay lại trang chủ</a>
+        </p>
+    </div>
+</div>
+<div class="bg-red text-center">IMG</div>
+<div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="anh1">
+        </div>
+        <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...anh2">
+        </div>
+        <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...anh3">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<div class="dropdown" data-bs-theme="light">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonLight" data-bs-toggle="dropdown" aria-expanded="false">
+        Default dropdown
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
+        <li><a class="dropdown-item active" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+</div>
+
+<div class="dropdown" data-bs-theme="dark">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonDark" data-bs-toggle="dropdown" aria-expanded="false">
+        Dark dropdown
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonDark">
+        <li><a class="dropdown-item active" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+</div>
