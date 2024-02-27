@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NETCore_Lesson02_Lab1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18452cf66dcb7f3a9bd80d028cd7abd103c99c05")]
 [assembly: System.Reflection.AssemblyProductAttribute("NETCore_Lesson02_Lab1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NETCore_Lesson02_Lab1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

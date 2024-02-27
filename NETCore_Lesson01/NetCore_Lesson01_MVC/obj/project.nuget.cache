@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "xQhqSMugIv2wt5Ia4b7z5uEimrORWAPsBOfKNVFRQqCIPiQvso/X/KNUynQ7IqpDDxaC6eECAEqJqvigksr89w==",
+  "dgSpecHash": "6xyHrsec5rTYRNpvv+hl9NMlljzpX/t80icCjeSEhPNoRQ646iWXctalbBgEa9OArydixTYBuZ4m0P2KGF3GyQ==",
   "success": true,
-  "projectFilePath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson01\\NetCore_Lesson01_MVC\\NetCore_Lesson01_MVC.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson01\\NetCore_Lesson01_MVC\\NetCore_Lesson01_MVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Wind\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Wind\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Wind\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Wind\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+  ],
   "logs": []
 }
