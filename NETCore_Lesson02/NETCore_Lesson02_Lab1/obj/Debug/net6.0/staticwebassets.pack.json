@@ -25,6 +25,26 @@
       "PackagePath": "staticwebassets\\avatar\\avatar4.jpg"
     },
     {
+      "Id": "D:\\08.Upgrade\\Code\\PhatTrien\\DEV2312LM_NETCORE\\NETCore_Lesson02\\NETCore_Lesson02_Lab1\\wwwroot\\avatar\\product1.jpg",
+      "PackagePath": "staticwebassets\\avatar\\product1.jpg"
+    },
+    {
+      "Id": "D:\\08.Upgrade\\Code\\PhatTrien\\DEV2312LM_NETCORE\\NETCore_Lesson02\\NETCore_Lesson02_Lab1\\wwwroot\\avatar\\product2.jpg",
+      "PackagePath": "staticwebassets\\avatar\\product2.jpg"
+    },
+    {
+      "Id": "D:\\08.Upgrade\\Code\\PhatTrien\\DEV2312LM_NETCORE\\NETCore_Lesson02\\NETCore_Lesson02_Lab1\\wwwroot\\avatar\\product3.jpg",
+      "PackagePath": "staticwebassets\\avatar\\product3.jpg"
+    },
+    {
+      "Id": "D:\\08.Upgrade\\Code\\PhatTrien\\DEV2312LM_NETCORE\\NETCore_Lesson02\\NETCore_Lesson02_Lab1\\wwwroot\\avatar\\product4.jpg",
+      "PackagePath": "staticwebassets\\avatar\\product4.jpg"
+    },
+    {
+      "Id": "D:\\08.Upgrade\\Code\\PhatTrien\\DEV2312LM_NETCORE\\NETCore_Lesson02\\NETCore_Lesson02_Lab1\\wwwroot\\avatar\\product5.jpg",
+      "PackagePath": "staticwebassets\\avatar\\product5.jpg"
+    },
+    {
       "Id": "D:\\08.Upgrade\\Code\\PhatTrien\\DEV2312LM_NETCORE\\NETCore_Lesson02\\NETCore_Lesson02_Lab1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
