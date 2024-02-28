@@ -2,36 +2,40 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
+    var products = ViewBag.Products;
+    var categories = ViewBag.Categories;
 }
 
 <div class="row">
     <div class="col-md-3">
         <h2>Danh mục</h2>
         <ul>
-            <li>Quần áO</li>
-            <li>Túi xách</li>
-            <li>Đồng hồ</li>
-            <li>Ti vi</li>
-            <li>Tủ lạnh</li>
-            <li>Máy bơm</li>
-            <li>Quạt điện</li>
-            <li>Lò sưởi</li>
+            @foreach (var item in categories)
+            {
+                <li>@item.Name</li>
+            }
+
         </ul>
     </div>
     <div class="col-md-9">
         <h2>Danh sách sản phẩm</h2>
         <div class="row">
-            <div class="col-md-4">
-                <div>
-                    <img src="" alt="img" />
+            @foreach (var item in products)
+            {
+                <div class="col-md-4">
+                    <div>
+                        <img src="@item.Image" alt="img" />
+                    </div>
+                    <div>
+                        <h3>@item.Name</h3>
+                        <div>Giá @item.Price</div>
+                        <div>Giá @item.SalePrice</div>
+                    </div>
+                    <a asp-controller="Product" asp-action="Product" class="btn btn-success btn-block">
+                        Chi Tiết
+                    </a>
                 </div>
-                <div>
-                    <h3>Bộ đồ chơi cho trẻ em</h3>
-                    <div>Giá </div>
-                    <div>Giá</div>
-                </div>
-                <button class="btn btn-success">Chi tiet</button>
-            </div>
+            }
 
         </div>
     </div>

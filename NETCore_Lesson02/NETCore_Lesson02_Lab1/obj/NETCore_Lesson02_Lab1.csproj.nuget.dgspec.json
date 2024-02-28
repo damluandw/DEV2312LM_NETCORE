@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson02\\NETCore_Lesson02_Lab1\\NETCore_Lesson02_Lab1.csproj": {}
+    "D:\\08.Upgrade\\Code\\PhatTrien\\DEV2312LM_NETCORE\\NETCore_Lesson02\\NETCore_Lesson02_Lab1\\NETCore_Lesson02_Lab1.csproj": {}
   },
   "projects": {
-    "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson02\\NETCore_Lesson02_Lab1\\NETCore_Lesson02_Lab1.csproj": {
+    "D:\\08.Upgrade\\Code\\PhatTrien\\DEV2312LM_NETCORE\\NETCore_Lesson02\\NETCore_Lesson02_Lab1\\NETCore_Lesson02_Lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson02\\NETCore_Lesson02_Lab1\\NETCore_Lesson02_Lab1.csproj",
+        "projectUniqueName": "D:\\08.Upgrade\\Code\\PhatTrien\\DEV2312LM_NETCORE\\NETCore_Lesson02\\NETCore_Lesson02_Lab1\\NETCore_Lesson02_Lab1.csproj",
         "projectName": "NETCore_Lesson02_Lab1",
-        "projectPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson02\\NETCore_Lesson02_Lab1\\NETCore_Lesson02_Lab1.csproj",
-        "packagesPath": "C:\\Users\\Wind\\.nuget\\packages\\",
-        "outputPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson02\\NETCore_Lesson02_Lab1\\obj\\",
+        "projectPath": "D:\\08.Upgrade\\Code\\PhatTrien\\DEV2312LM_NETCORE\\NETCore_Lesson02\\NETCore_Lesson02_Lab1\\NETCore_Lesson02_Lab1.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\08.Upgrade\\Code\\PhatTrien\\DEV2312LM_NETCORE\\NETCore_Lesson02\\NETCore_Lesson02_Lab1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Wind\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,11 +35,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,24 +51,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.27, 6.0.27]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.27, 6.0.27]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.27, 6.0.27]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.27, 6.0.27]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -81,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

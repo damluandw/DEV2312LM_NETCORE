@@ -72,6 +72,37 @@ namespace NETCore_Lesson02_Lab1.Controllers
              },
             };
             ViewBag.Products = products;
+
+            List<Category> categories = new List<Category>() {
+                new Category() { Id = 1, Name ="Quần áo"},
+                new Category() { Id = 2, Name ="Túi xách"},
+                new Category() { Id = 3, Name ="Đồng hồ"},
+                new Category() { Id = 4, Name ="Ti vi"},
+                new Category() { Id = 5, Name ="Tủ lạnh"},
+                new Category() { Id = 6, Name ="Máy bơm"},
+                new Category() { Id = 7, Name ="Quạt điện"},
+                new Category() { Id = 8, Name ="Lò sưởi"},
+            };
+            ViewBag.Categories = categories;
+            return View();
+        }
+
+        //[Route("san-pham", Name = "Product")]
+        public IActionResult Product()
+        {
+            Product product = new Product()
+            {
+                Id = 1,
+                Name = "Product Test 1",
+                Image = Url.Content("~/avatar/product1.jpg"),
+                Price = 600000,
+                SalePrice = 500000,
+                CategoryId = 1,
+                Description = "Description 1",
+                Status = 1,
+                CreateAt = Convert.ToDateTime("2024-12-06")
+            };
+            ViewBag.Product = product;
             return View();
         }
     }
