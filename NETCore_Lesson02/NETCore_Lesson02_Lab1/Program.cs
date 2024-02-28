@@ -27,16 +27,16 @@ namespace NETCore_Lesson02_Lab1
             app.UseRouting();
 
             app.UseAuthorization();
-            //app.MapControllerRoute(
-            //    name: "Account",
-            //    pattern: "{controller=Account}/{action=Index}/{id?}"
-            // //defaults: new { controller = "Account", action = "Index" }
-            //  );
-            //app.MapControllerRoute(
-            //   name: "san-pham",
-            //   pattern: "{controller=Product}/{action=Index}/{id?}"
-            // //defaults: new { controller = "Account", action = "Index" }
-            // );
+            app.MapControllerRoute(
+                name: "account",
+                pattern: "Account/{action=Index}/{id?}"
+              //defaults: new { controller = "Account", action = "Index" }
+              );
+            app.MapControllerRoute(
+               name: "product",
+               pattern: "san-pham/{action}/{id?}"
+             , defaults: new { controller = "Product", action = "Index" }
+             );
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
