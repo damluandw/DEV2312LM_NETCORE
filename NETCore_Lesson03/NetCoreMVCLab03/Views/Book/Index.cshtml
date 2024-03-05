@@ -5,7 +5,13 @@
 @{
     ViewData["Title"] = "Index";
 }
-@*<partial name="Banner"/>*@
+@*<partial name="BannerPartialView" />*@
+@Html.RenderPartialAsync("BannerPartialView");
+@*
+    @{
+        await Html.RenderPartialAsync("BannerPartialView");
+    }
+*@
 <h2>Danh sách các cuốn sách</h2>
 <form action="" method="POST" class="form-inline" role="form">
     <div class="form-group">

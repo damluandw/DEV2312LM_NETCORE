@@ -4,5 +4,20 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <partial name="BannerPartialView" />
+
+    <hr />
+    <button id="loadAjax" class="btn btn-sm btn-primary">Click load Book từ partialResult</button>
+    <hr />
+    <div id="data-from-ajax" class="row">Loading data...</div>
+    <hr />
+    @section Scripts{
+        <script>
+
+            $('#loadAjax').on("click", function ()  {
+                console.log("click");
+                $('#data-from-ajax').load("/Book/PopularBoook")
+            })
+        </script>
+    }
 </div>
