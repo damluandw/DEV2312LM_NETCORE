@@ -9549,11 +9549,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lession04\\NETCore_Lesson04.csproj",
+      "projectUniqueName": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lession04\\NETCore_Lesson04.csproj",
       "projectName": "NETCore_Lesson04",
-      "projectPath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lession04\\NETCore_Lesson04.csproj",
+      "projectPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lession04\\NETCore_Lesson04.csproj",
       "packagesPath": "C:\\Users\\Wind\\.nuget\\packages\\",
-      "outputPath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lession04\\obj\\",
+      "outputPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lession04\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Wind\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9576,6 +9576,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -9598,6 +9603,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.27, 6.0.27]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.27, 6.0.27]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.27, 6.0.27]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.27, 6.0.27]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -9606,7 +9629,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
