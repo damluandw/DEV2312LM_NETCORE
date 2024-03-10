@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NETCore_Lesson05_Lab01.Models;
+using System.Text.RegularExpressions;
 
 namespace NETCore_Lesson05_Lab01.Controllers
 {
@@ -27,10 +28,16 @@ namespace NETCore_Lesson05_Lab01.Controllers
             return View(account);
         }
 
+        [AcceptVerbs("GET","POST")]
         public IActionResult VerifyPhone( string phone)
         {
-            Regex _isPhone = new Regex(@"")
-            return View(account);
+            Regex _isPhone = new Regex(@"^\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})$");
+            if (_isPhone.IsMatch(phone))
+            {
+                return Json($"Số điện thoại {phone} Không đúng định dạng, VS: 0984211127 hoặc  098.421.1127");
+
+            }
+            return Json(true);
         }
 
         // POST: AccountController/Create

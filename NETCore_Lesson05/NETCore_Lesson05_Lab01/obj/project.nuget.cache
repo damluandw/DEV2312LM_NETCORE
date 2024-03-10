@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8LGFcs6yJkwciA4KUfXgf/nK7UYCgup5DxCoyOeaKqhXi3vxLPWdAjPqi9thGFiWEicDE/LuxbDp0upe08LmSQ==",
+  "dgSpecHash": "GQhSqzQtboPIUQXumsMBKVpUjy487VDHx8c7fbikGw64aN+hjDBvCeH0WyrwhzGVBBaUzAGrwQyblZZFNMs14w==",
   "success": true,
-  "projectFilePath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson05\\NETCore_Lesson05_Lab01\\NETCore_Lesson05_Lab01.csproj",
+  "projectFilePath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson05\\NETCore_Lesson05_Lab01\\NETCore_Lesson05_Lab01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wind\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Wind\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

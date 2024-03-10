@@ -27,7 +27,7 @@ namespace NETCore_Lesson05_Lab01.Models
         [DisplayName("Điện thoại")]
         [DataType(DataType.PhoneNumber)]
         //[RegularExpression(@"^0\d{9,12}$", ErrorMessage = "Phải bắt đầu bằng 0 và dài 10-12 số")]
-        [Remote(action: "VerifyPhone", controller:"Account" )]
+        [Remote(action: "VerifyPhone", controller: "Account")]
         [Required(ErrorMessage = "Số điện thoại không được để trống")]
         public string Phone { get; set; }
         [DisplayName("Địa chỉ")]
