@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using NETCore_Lesson06_Lab01.Entities;
+
 namespace NETCore_Lesson06_Lab01
 {
     public class Program
@@ -8,9 +11,12 @@ namespace NETCore_Lesson06_Lab01
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-
+            var connectString = builder.Configuration.GetConnectionString("AppConnection");
+            builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectString));
+            //builder.Services.AddMvc();
+            //builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("AppConnection")));
             var app = builder.Build();
-
+     
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
