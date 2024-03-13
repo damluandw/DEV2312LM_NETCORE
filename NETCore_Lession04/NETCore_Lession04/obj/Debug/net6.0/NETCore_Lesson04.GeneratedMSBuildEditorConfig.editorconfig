@@ -9,79 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NETCore_Lesson04
 build_property.RootNamespace = NETCore_Lesson04
-build_property.ProjectDir = D:\03.DEVMASTER\Code\DEV2312LM_NETCORE\NETCore_Lession04\NETCore_Lession04\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = D:\Devmaster\DEV\DEV2312LM_NETCORE\NETCore_Lession04\NETCore_Lession04\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\03.DEVMASTER\Code\DEV2312LM_NETCORE\NETCore_Lession04\NETCore_Lession04
+build_property.MSBuildProjectDirectory = D:\Devmaster\DEV\DEV2312LM_NETCORE\NETCore_Lession04\NETCore_Lession04
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Home/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Home/Privacy.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Member1/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Member1/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyMVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Member1/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Member1/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyMVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Member1/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Member1/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyMVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Member1/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Member1/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyMVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Member1/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Member1/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyMVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Member/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Member/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Member/GetListMember.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Member/GetListMember.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXEdldExpc3RNZW1iZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Member/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Member/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Member/IndexModel.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Member/IndexModel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXEluZGV4TW9kZWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Member/ListModel.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Member/ListModel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXExpc3RNb2RlbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Shared/Error.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/_ViewImports.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/_ViewStart.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Shared/_Layout.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCore_Lession04/NETCore_Lession04/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-71tw669lcs

@@ -35,8 +35,8 @@ namespace NETCore_Lesson06_Lab01.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)");
 
                     b.Property<byte>("Status")
                         .HasColumnType("tinyint");

@@ -13,7 +13,6 @@ namespace NETCore_Lesson06_Lab01.Models
         [Column(TypeName = "nvarchar(150)")]
         public string Name { get; set; }
 
-        [Required(ErrorMessage = "Tên sản phẩm không được để trống")]
         [StringLength(150)]
         [Column(TypeName = "nvarchar(150)")]
         public string Image { get; set; }
