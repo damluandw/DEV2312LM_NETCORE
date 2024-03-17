@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lesson04_Lab01\\NETCore_Lesson04_Lab01.csproj": {}
+    "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lesson04_Lab01\\NETCore_Lesson04_Lab01.csproj": {}
   },
   "projects": {
-    "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lesson04_Lab01\\NETCore_Lesson04_Lab01.csproj": {
+    "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lesson04_Lab01\\NETCore_Lesson04_Lab01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lesson04_Lab01\\NETCore_Lesson04_Lab01.csproj",
+        "projectUniqueName": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lesson04_Lab01\\NETCore_Lesson04_Lab01.csproj",
         "projectName": "NETCore_Lesson04_Lab01",
-        "projectPath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lesson04_Lab01\\NETCore_Lesson04_Lab01.csproj",
+        "projectPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lesson04_Lab01\\NETCore_Lesson04_Lab01.csproj",
         "packagesPath": "C:\\Users\\Wind\\.nuget\\packages\\",
-        "outputPath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lesson04_Lab01\\obj\\",
+        "outputPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lesson04_Lab01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Wind\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -64,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

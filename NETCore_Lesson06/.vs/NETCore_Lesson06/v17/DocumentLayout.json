@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson06\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{736D91EB-750F-4382-9120-F14C1261F996}|NETCore_Lesson06_Lab01\\NETCore_Lesson06_Lab01.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson06\\netcore_lesson06_lab01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{736D91EB-750F-4382-9120-F14C1261F996}|NETCore_Lesson06_Lab01\\NETCore_Lesson06_Lab01.csproj|solutionrelative:netcore_lesson06_lab01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{736D91EB-750F-4382-9120-F14C1261F996}|NETCore_Lesson06_Lab01\\NETCore_Lesson06_Lab01.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson06\\netcore_lesson06_lab01\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{736D91EB-750F-4382-9120-F14C1261F996}|NETCore_Lesson06_Lab01\\NETCore_Lesson06_Lab01.csproj|solutionrelative:netcore_lesson06_lab01\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736D91EB-750F-4382-9120-F14C1261F996}|NETCore_Lesson06_Lab01\\NETCore_Lesson06_Lab01.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson06\\netcore_lesson06_lab01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{736D91EB-750F-4382-9120-F14C1261F996}|NETCore_Lesson06_Lab01\\NETCore_Lesson06_Lab01.csproj|solutionrelative:netcore_lesson06_lab01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{736D91EB-750F-4382-9120-F14C1261F996}|NETCore_Lesson06_Lab01\\NETCore_Lesson06_Lab01.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson06\\netcore_lesson06_lab01\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,26 +38,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson06\\NETCore_Lesson06_Lab01\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "NETCore_Lesson06_Lab01\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson06\\NETCore_Lesson06_Lab01\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "NETCore_Lesson06_Lab01\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACsAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACkAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-12T16:10:03.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T16:10:03.829Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson06\\NETCore_Lesson06_Lab01\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "NETCore_Lesson06_Lab01\\Controllers\\ProductsController.cs",
               "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson06\\NETCore_Lesson06_Lab01\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "NETCore_Lesson06_Lab01\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAuwJcAAAANAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAgwEYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-12T16:09:04.758Z",
               "EditorCaption": ""
@@ -72,8 +71,7 @@
               "RelativeToolTip": "NETCore_Lesson06_Lab01\\Controllers\\CategoriesController.cs",
               "ViewState": "AQIAAIYAAAAAAAAAAAAAwBcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T16:05:59.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T16:05:59.453Z"
             }
           ]
         }

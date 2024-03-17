@@ -1,0 +1,55 @@
+﻿@model IEnumerable<NETCore_Lesson07.Models.Book>
+
+@{
+    ViewData["Title"] = "Sách........";
+}
+@* 
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Author)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Release)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Picture)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Publisher)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody> *@
+@foreach (var item in Model) {
+    <div class="card" style="width: 18rem;">
+        <img src="/@item.Picture" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@item.Title</h5>
+            <p>Mã sách: <b>@item.BookId</b></p>
+            <p class="card-text red">Giá: @item.Price</p>
+            <a asp-action="Details" asp-route-id="@item.BookId">Xem chi tiết</a> |
+        </div>
+    </div>
+}
+    </tbody>
+</table>

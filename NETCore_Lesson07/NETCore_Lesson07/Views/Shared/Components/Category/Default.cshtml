@@ -1,1 +1,12 @@
 ﻿@model IEnumerable<NETCore_Lesson07.Models.Category>
+<ul>
+    <li class="list-group-item active"v aria-current="true">
+        Danh sách
+    </li>
+    @foreach(var item in Model)
+    {
+        <li class="list-group-item">
+            <a href="/books/index/@item.CategoryId">@item.CategoryName</a>
+        </li>
+    }
+</ul>
