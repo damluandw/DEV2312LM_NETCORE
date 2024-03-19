@@ -65,6 +65,14 @@
       "PackagePath": "staticwebassets\\images\\books\\P68102.jpg"
     },
     {
+      "Id": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson07\\NETCore_Lesson07\\wwwroot\\images\\books\\wallpaperflare.com_wallpaper (11).jpg",
+      "PackagePath": "staticwebassets\\images\\books\\wallpaperflare.com_wallpaper (11).jpg"
+    },
+    {
+      "Id": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson07\\NETCore_Lesson07\\wwwroot\\images\\books\\wallpaperflare.com_wallpaper (15).jpg",
+      "PackagePath": "staticwebassets\\images\\books\\wallpaperflare.com_wallpaper (15).jpg"
+    },
+    {
       "Id": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson07\\NETCore_Lesson07\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

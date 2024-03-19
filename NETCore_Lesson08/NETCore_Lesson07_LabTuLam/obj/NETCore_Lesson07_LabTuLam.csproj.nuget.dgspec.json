@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson08\\NETCore_Lesson07_LabTuLam\\NETCore_Lesson07_LabTuLam.csproj": {}
+    "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson08\\NETCore_Lesson07_LabTuLam\\NETCore_Lesson07_LabTuLam.csproj": {}
   },
   "projects": {
-    "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson08\\NETCore_Lesson07_LabTuLam\\NETCore_Lesson07_LabTuLam.csproj": {
+    "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson08\\NETCore_Lesson07_LabTuLam\\NETCore_Lesson07_LabTuLam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson08\\NETCore_Lesson07_LabTuLam\\NETCore_Lesson07_LabTuLam.csproj",
+        "projectUniqueName": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson08\\NETCore_Lesson07_LabTuLam\\NETCore_Lesson07_LabTuLam.csproj",
         "projectName": "NETCore_Lesson07_LabTuLam",
-        "projectPath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson08\\NETCore_Lesson07_LabTuLam\\NETCore_Lesson07_LabTuLam.csproj",
+        "projectPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson08\\NETCore_Lesson07_LabTuLam\\NETCore_Lesson07_LabTuLam.csproj",
         "packagesPath": "C:\\Users\\Wind\\.nuget\\packages\\",
-        "outputPath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson08\\NETCore_Lesson07_LabTuLam\\obj\\",
+        "outputPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson08\\NETCore_Lesson07_LabTuLam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Wind\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,12 +34,37 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[7.0.12, )"
@@ -64,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
