@@ -10,7 +10,7 @@ namespace NETCore_Lesson09.Models
         public int Id { get; set; }
         [Required]
         [StringLength(100)]
-        [Display(Name="Tên loại")]
+        [Display(Name = "Tên loại")]
         public string Name { get; set; }
         [Display(Name = "Trạng thái")]
         public byte Status { get; set; }

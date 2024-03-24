@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using NETCore_Lesson09.Models;
+using X.PagedList;
 
 namespace NETCore_Lesson09.Areas.Admins.Controllers
 {
@@ -20,11 +21,20 @@ namespace NETCore_Lesson09.Areas.Admins.Controllers
         }
 
         // GET: Admins/Products
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string name, int page = 1)
         {
-            var appDbContext = _context.Products.Include(p => p.Category);
-            return View(await appDbContext.ToListAsync());
+            int limit = 5;
+            var products = await _context.Products.OrderBy(c => c.Id).ToPagedListAsync(page, limit);
+            if (!string.IsNullOrEmpty(name))
+            {
+                products = await _context.Products.Where(c => c.Name.Contains(name)).OrderBy(c => c.Id).ToPagedListAsync(page, limit);
+            }
+            ViewBag.kewword = name;
+            return View(products);
+            //var appDbContext = _context.Products.Include(p => p.Category);
+            //return View(await appDbContext.ToListAsync());
         }
+
 
         // GET: Admins/Products/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -61,12 +71,29 @@ namespace NETCore_Lesson09.Areas.Admins.Controllers
         {
             if (ModelState.IsValid)
             {
+                var files = HttpContext.Request.Form.Files;
+                if (files.Count() > 0 && files[0].Length > 0)
+                {
+                    var file = files[0];
+                    var FileName = file.FileName;
+                    // upload ảnh vào thư mục wwwroot\\images\\category
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\product", FileName);
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        file.CopyTo(stream);
+                        product.Image = "/images/product/" + FileName; // gán tên ảnh cho thuộc tinh Image
+                    }
+
+                }
+                product.CreatedDate = DateTime.Now;
+
                 _context.Add(product);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", product.CategoryId);
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", product.CategoryId);
             return View(product);
+
         }
 
         // GET: Admins/Products/Edit/5
@@ -102,6 +129,20 @@ namespace NETCore_Lesson09.Areas.Admins.Controllers
             {
                 try
                 {
+                    var files = HttpContext.Request.Form.Files;
+                    if (files.Count() > 0 && files[0].Length > 0)
+                    {
+                        var file = files[0];
+                        var FileName = file.FileName;
+                        // upload ảnh vào thư mục wwwroot\\images\\category
+                        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\product", FileName);
+                        using (var stream = new FileStream(path, FileMode.Create))
+                        {
+                            file.CopyTo(stream);
+                            product.Image = "/images/product/" + FileName; // gán tên ảnh cho thuộc tinh Image
+                        }
+
+                    }
                     _context.Update(product);
                     await _context.SaveChangesAsync();
                 }
@@ -155,14 +196,14 @@ namespace NETCore_Lesson09.Areas.Admins.Controllers
             {
                 _context.Products.Remove(product);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ProductExists(int id)
         {
-          return (_context.Products?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.Products?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

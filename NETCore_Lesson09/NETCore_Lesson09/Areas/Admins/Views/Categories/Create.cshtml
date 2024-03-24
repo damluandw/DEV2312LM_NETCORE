@@ -20,8 +20,14 @@
             </div>
             <div class="form-group">
                 <label asp-for="Status" class="control-label"></label>
-                <input asp-for="Status" class="form-control" />
-                <span asp-validation-for="Status" class="text-danger"></span>
+                <select asp-for="Status">
+                    <option value="">Please select one</option>
+                    <option value="1">Hiển thị</option>
+                    <option value="0">Ẩn</option>
+                </select>
+               @*  <input asp-for="Status" id="stFasle" type="radio" value="0" /><label for="stFasle">Ẩn</label>
+                <input asp-for="Status" id="stTrue" type="radio" value="1" /><label for="stTrue">Hiển thị</label>
+                <span asp-validation-for="Status" class="text-danger"></span> *@
             </div>
             <div class="form-group">
                 <label asp-for="Image" class="control-label"></label>

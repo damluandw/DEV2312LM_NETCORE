@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lession04\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2DE0DE4-D5A2-47F7-9D32-4C66C94AFCC5}|NETCore_Lesson04_Lab01\\NETCore_Lesson04_Lab01.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lession04\\netcore_lesson04_lab01\\views\\people\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2DE0DE4-D5A2-47F7-9D32-4C66C94AFCC5}|NETCore_Lesson04_Lab01\\NETCore_Lesson04_Lab01.csproj|solutionrelative:netcore_lesson04_lab01\\views\\people\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2DE0DE4-D5A2-47F7-9D32-4C66C94AFCC5}|NETCore_Lesson04_Lab01\\NETCore_Lesson04_Lab01.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lession04\\netcore_lesson04_lab01\\views\\people\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2DE0DE4-D5A2-47F7-9D32-4C66C94AFCC5}|NETCore_Lesson04_Lab01\\NETCore_Lesson04_Lab01.csproj|solutionrelative:netcore_lesson04_lab01\\views\\people\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2DE0DE4-D5A2-47F7-9D32-4C66C94AFCC5}|NETCore_Lesson04_Lab01\\NETCore_Lesson04_Lab01.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lession04\\netcore_lesson04_lab01\\views\\people\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2DE0DE4-D5A2-47F7-9D32-4C66C94AFCC5}|NETCore_Lesson04_Lab01\\NETCore_Lesson04_Lab01.csproj|solutionrelative:netcore_lesson04_lab01\\views\\people\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2DE0DE4-D5A2-47F7-9D32-4C66C94AFCC5}|NETCore_Lesson04_Lab01\\NETCore_Lesson04_Lab01.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lession04\\netcore_lesson04_lab01\\views\\people\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2DE0DE4-D5A2-47F7-9D32-4C66C94AFCC5}|NETCore_Lesson04_Lab01\\NETCore_Lesson04_Lab01.csproj|solutionrelative:netcore_lesson04_lab01\\views\\people\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2DE0DE4-D5A2-47F7-9D32-4C66C94AFCC5}|NETCore_Lesson04_Lab01\\NETCore_Lesson04_Lab01.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lession04\\netcore_lesson04_lab01\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,39 +50,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lesson04_Lab01\\Views\\People\\Index.cshtml",
               "RelativeDocumentMoniker": "NETCore_Lesson04_Lab01\\Views\\People\\Index.cshtml",
               "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lesson04_Lab01\\Views\\People\\Index.cshtml",
               "RelativeToolTip": "NETCore_Lesson04_Lab01\\Views\\People\\Index.cshtml",
-              "ViewState": "AQIAACsAAAAAAAAAAAAAAEEAAAA7AAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAAEEAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-05T15:59:58.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T15:59:58.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lesson04_Lab01\\Views\\People\\Create.cshtml",
               "RelativeDocumentMoniker": "NETCore_Lesson04_Lab01\\Views\\People\\Create.cshtml",
               "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lesson04_Lab01\\Views\\People\\Create.cshtml",
               "RelativeToolTip": "NETCore_Lesson04_Lab01\\Views\\People\\Create.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAAwAAAAgAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADoAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-05T15:59:58.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T15:59:58.621Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lesson04_Lab01\\Views\\People\\Details.cshtml",
               "RelativeDocumentMoniker": "NETCore_Lesson04_Lab01\\Views\\People\\Details.cshtml",
               "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lession04\\NETCore_Lesson04_Lab01\\Views\\People\\Details.cshtml",
               "RelativeToolTip": "NETCore_Lesson04_Lab01\\Views\\People\\Details.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAQwDkAAAAsAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAQwC8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-05T15:59:58.623Z",
               "EditorCaption": ""
@@ -97,8 +95,7 @@
               "RelativeToolTip": "NETCore_Lesson04_Lab01\\Controllers\\PeopleController.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAuwDgAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T15:59:58.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T15:59:58.624Z"
             },
             {
               "$type": "Document",

@@ -126,6 +126,20 @@ namespace NETCore_Lesson09.Areas.Admins.Controllers
             {
                 try
                 {
+                    var files = HttpContext.Request.Form.Files;
+                    if (files.Count() > 0 && files[0].Length > 0)
+                    {
+                        var file = files[0];
+                        var FileName = file.FileName;
+                        // upload ảnh vào thư mục wwwroot\\images\\category
+                        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\category", FileName);
+                        using (var stream = new FileStream(path, FileMode.Create))
+                        {
+                            file.CopyTo(stream);
+                            category.Image = "/images/category/" + FileName; // gán tên ảnh cho thuộc tinh Image
+                        }
+
+                    }
                     _context.Update(category);
                     await _context.SaveChangesAsync();
                 }

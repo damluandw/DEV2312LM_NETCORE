@@ -60,6 +60,22 @@ namespace NETCore_Lesson09.Areas.Admins.Controllers
         {
             if (ModelState.IsValid)
             {
+                var files = HttpContext.Request.Form.Files;
+                if (files.Count() > 0 && files[0].Length > 0)
+                {
+                    var file = files[0];
+                    var FileName = file.FileName;
+                    // upload ảnh vào thư mục wwwroot\\images\\category
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\blog", FileName);
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        file.CopyTo(stream);
+                        blog.Image = "/images/blog/" + FileName; // gán tên ảnh cho thuộc tinh Image
+                    }
+
+                }
+                blog.CreatedDate = DateTime.Now;
+
                 _context.Add(blog);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -99,6 +115,20 @@ namespace NETCore_Lesson09.Areas.Admins.Controllers
             {
                 try
                 {
+                    var files = HttpContext.Request.Form.Files;
+                    if (files.Count() > 0 && files[0].Length > 0)
+                    {
+                        var file = files[0];
+                        var FileName = file.FileName;
+                        // upload ảnh vào thư mục wwwroot\\images\\category
+                        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\blog", FileName);
+                        using (var stream = new FileStream(path, FileMode.Create))
+                        {
+                            file.CopyTo(stream);
+                            blog.Image = "/images/blog/" + FileName; // gán tên ảnh cho thuộc tinh Image
+                        }
+
+                    }
                     _context.Update(blog);
                     await _context.SaveChangesAsync();
                 }
