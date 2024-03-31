@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETCORE_Lesson10", "NETCORE_Lesson10\NETCORE_Lesson10.csproj", "{4305ACE3-DA3C-4925-8B05-39E186FDC5D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCORE_Lesson10", "NETCORE_Lesson10\NETCORE_Lesson10.csproj", "{4305ACE3-DA3C-4925-8B05-39E186FDC5D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCore_Lesson09", "NETCore_Lesson09\NETCore_Lesson09.csproj", "{09B96C85-09B1-43AB-AA67-E7776E5AEF69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore_Lesson091_Lab", "NetCore_Lesson091_Lab\NetCore_Lesson091_Lab.csproj", "{D81D167B-C903-4066-9E43-58AF9EAABC16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{4305ACE3-DA3C-4925-8B05-39E186FDC5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4305ACE3-DA3C-4925-8B05-39E186FDC5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4305ACE3-DA3C-4925-8B05-39E186FDC5D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B96C85-09B1-43AB-AA67-E7776E5AEF69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B96C85-09B1-43AB-AA67-E7776E5AEF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B96C85-09B1-43AB-AA67-E7776E5AEF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B96C85-09B1-43AB-AA67-E7776E5AEF69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D81D167B-C903-4066-9E43-58AF9EAABC16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D81D167B-C903-4066-9E43-58AF9EAABC16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D81D167B-C903-4066-9E43-58AF9EAABC16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D81D167B-C903-4066-9E43-58AF9EAABC16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
