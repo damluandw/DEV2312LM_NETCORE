@@ -1,11 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using NetCore_Lesson091_Lab.Models;
 using Newtonsoft.Json;
 
 namespace NetCore_Lesson091_Lab.Controllers
 {
-    public class CartController : Controller,IActionFilter
+    public class CartController : Controller, IActionFilter
     {
         private readonly DevXuongMocContext _context;
         private List<Cart> carts = new List<Cart>();
@@ -39,7 +40,7 @@ namespace NetCore_Lesson091_Lab.Controllers
         }
         public IActionResult Add(int id)
         {
-            if(carts.Any( c=> c.Id == id))
+            if (carts.Any(c => c.Id == id))
             {
                 carts.Where(c => c.Id == id).First().Quantity += 1;
             }
@@ -58,6 +59,32 @@ namespace NetCore_Lesson091_Lab.Controllers
                 carts.Add(item);
             }
             HttpContext.Session.SetString("My-Cart", JsonConvert.SerializeObject(carts));
+            return RedirectToAction("Index");
+        }
+        public IActionResult Remove(int id)
+        {
+            if (carts.Any(c => c.Id == id))
+            {
+                var item = carts.Where(c => c.Id == id).First();
+                carts.Remove(item);
+                HttpContext.Session.SetString("My-Cart", JsonConvert.SerializeObject(carts));
+            }
+            return RedirectToAction("Index");
+        }
+        public IActionResult Update(int id, int quatity)
+        {
+
+            if (carts.Any(c => c.Id == id))
+            {
+                var item = carts.Where(c => c.Id == id).First().Quantity = quatity;
+                HttpContext.Session.SetString("My-Cart", JsonConvert.SerializeObject(carts));
+            }
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Clear()
+        {
+            HttpContext.Session.Remove("My-Cart");
             return RedirectToAction("Index");
         }
     }

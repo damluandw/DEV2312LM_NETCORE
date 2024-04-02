@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCORE_Lesson10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D81D167B-C903-4066-9E43-58AF9EAABC16}|NetCore_Lesson091_Lab\\NetCore_Lesson091_Lab.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson10\\netcore_lesson091_lab\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D81D167B-C903-4066-9E43-58AF9EAABC16}|NetCore_Lesson091_Lab\\NetCore_Lesson091_Lab.csproj|solutionrelative:netcore_lesson091_lab\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D81D167B-C903-4066-9E43-58AF9EAABC16}|NetCore_Lesson091_Lab\\NetCore_Lesson091_Lab.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson10\\netcore_lesson091_lab\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D81D167B-C903-4066-9E43-58AF9EAABC16}|NetCore_Lesson091_Lab\\NetCore_Lesson091_Lab.csproj|solutionrelative:netcore_lesson091_lab\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D81D167B-C903-4066-9E43-58AF9EAABC16}|NetCore_Lesson091_Lab\\NetCore_Lesson091_Lab.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson10\\netcore_lesson091_lab\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D81D167B-C903-4066-9E43-58AF9EAABC16}|NetCore_Lesson091_Lab\\NetCore_Lesson091_Lab.csproj|solutionrelative:netcore_lesson091_lab\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D81D167B-C903-4066-9E43-58AF9EAABC16}|NetCore_Lesson091_Lab\\NetCore_Lesson091_Lab.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson10\\netcore_lesson091_lab\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D81D167B-C903-4066-9E43-58AF9EAABC16}|NetCore_Lesson091_Lab\\NetCore_Lesson091_Lab.csproj|solutionrelative:netcore_lesson091_lab\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81D167B-C903-4066-9E43-58AF9EAABC16}|NetCore_Lesson091_Lab\\NetCore_Lesson091_Lab.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson10\\netcore_lesson091_lab\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81D167B-C903-4066-9E43-58AF9EAABC16}|NetCore_Lesson091_Lab\\NetCore_Lesson091_Lab.csproj|solutionrelative:netcore_lesson091_lab\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D81D167B-C903-4066-9E43-58AF9EAABC16}|NetCore_Lesson091_Lab\\NetCore_Lesson091_Lab.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson10\\netcore_lesson091_lab\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D81D167B-C903-4066-9E43-58AF9EAABC16}|NetCore_Lesson091_Lab\\NetCore_Lesson091_Lab.csproj|solutionrelative:netcore_lesson091_lab\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D81D167B-C903-4066-9E43-58AF9EAABC16}|NetCore_Lesson091_Lab\\NetCore_Lesson091_Lab.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson10\\netcore_lesson091_lab\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D81D167B-C903-4066-9E43-58AF9EAABC16}|NetCore_Lesson091_Lab\\NetCore_Lesson091_Lab.csproj|solutionrelative:netcore_lesson091_lab\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D81D167B-C903-4066-9E43-58AF9EAABC16}|NetCore_Lesson091_Lab\\NetCore_Lesson091_Lab.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson10\\netcore_lesson091_lab\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81D167B-C903-4066-9E43-58AF9EAABC16}|NetCore_Lesson091_Lab\\NetCore_Lesson091_Lab.csproj|solutionrelative:netcore_lesson091_lab\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D81D167B-C903-4066-9E43-58AF9EAABC16}|NetCore_Lesson091_Lab\\NetCore_Lesson091_Lab.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson10\\netcore_lesson091_lab\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -51,19 +55,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCORE_Lesson10\\NetCore_Lesson091_Lab\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "NetCore_Lesson091_Lab\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCORE_Lesson10\\NetCore_Lesson091_Lab\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "NetCore_Lesson091_Lab\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-02T16:23:11.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCORE_Lesson10\\NetCore_Lesson091_Lab\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "NetCore_Lesson091_Lab\\Controllers\\CartController.cs",
               "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCORE_Lesson10\\NetCore_Lesson091_Lab\\Controllers\\CartController.cs",
               "RelativeToolTip": "NetCore_Lesson091_Lab\\Controllers\\CartController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAtwD8AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-31T12:55:30.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Cart.cs",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCORE_Lesson10\\NetCore_Lesson091_Lab\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "NetCore_Lesson091_Lab\\Models\\Cart.cs",
@@ -76,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCORE_Lesson10\\NetCore_Lesson091_Lab\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "NetCore_Lesson091_Lab\\Views\\Shared\\_Layout.cshtml",
@@ -84,12 +101,11 @@
               "RelativeToolTip": "NetCore_Lesson091_Lab\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-31T12:39:54.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-31T12:39:54.706Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "site.css",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCORE_Lesson10\\NetCore_Lesson091_Lab\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "NetCore_Lesson091_Lab\\wwwroot\\css\\site.css",
@@ -97,25 +113,24 @@
               "RelativeToolTip": "NetCore_Lesson091_Lab\\wwwroot\\css\\site.css",
               "ViewState": "AQIAAGAAAAAAAAAAAAAUwGIAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-03-31T10:21:54.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-31T10:21:54.753Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCORE_Lesson10\\NetCore_Lesson091_Lab\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "NetCore_Lesson091_Lab\\Views\\Products\\Index.cshtml",
               "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCORE_Lesson10\\NetCore_Lesson091_Lab\\Views\\Products\\Index.cshtml",
               "RelativeToolTip": "NetCore_Lesson091_Lab\\Views\\Products\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA+AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-31T10:08:27.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCORE_Lesson10\\NetCore_Lesson091_Lab\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "NetCore_Lesson091_Lab\\Controllers\\ProductsController.cs",
@@ -123,8 +138,7 @@
               "RelativeToolTip": "NetCore_Lesson091_Lab\\Controllers\\ProductsController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T10:08:00.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-31T10:08:00.891Z"
             }
           ]
         }
