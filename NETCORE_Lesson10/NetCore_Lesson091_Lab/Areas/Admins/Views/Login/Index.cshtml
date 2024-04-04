@@ -1,4 +1,8 @@
 ﻿@using Microsoft.AspNetCore.Http;
+@using NetCore_Lesson091_Lab
+@using NetCore_Lesson091_Lab.Models
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
 @model NetCore_Lesson091_Lab.Areas.Admins.Models.Login
 @{
     Layout = null;
@@ -31,7 +35,7 @@
                 <form asp-action="Index" method="post">
                     <div class="input-group mb-3">
 
-                        <input type="email" class="form-control" asp-for="Email" placeholder="Email">
+                        <input type="email" class="form-control" asp-for="Email" placeholder="Email" value="admin@gmail.com">
 
                         <div class="input-group-append">
                             <div class="input-group-text">
@@ -42,7 +46,7 @@
                     </div>
                     <div class="input-group mb-3">
 
-                        <input type="password" class="form-control" asp-for="Password" placeholder="Password">
+                        <input type="password" class="form-control" asp-for="Password" placeholder="Password" value="admin">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-lock" asp-for="Password"></span>

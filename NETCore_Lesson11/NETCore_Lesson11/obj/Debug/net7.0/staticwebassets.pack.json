@@ -1,0 +1,461 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\NETCore_Lesson11.bundle.scp.css",
+      "PackagePath": "staticwebassets\\NETCore_Lesson11.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\cau-thang\\019.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\cau-thang\\019.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\do-trang-tri\\020.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\do-trang-tri\\020.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-bep\\004.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-bep\\004.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-bep\\009.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-bep\\009.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-khach\\001.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-khach\\001.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-khach\\001a.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-khach\\001a.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-khach\\001b.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-khach\\001b.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-khach\\001c.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-khach\\001c.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-khach\\001d.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-khach\\001d.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-khach\\001e.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-khach\\001e.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-khach\\002.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-khach\\002.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-khach\\008.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-khach\\008.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-khach\\009.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-khach\\009.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-khach\\011.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-khach\\011.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-khach\\012.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-khach\\012.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-khach\\014.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-khach\\014.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-khach\\015.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-khach\\015.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-ngu\\003.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-ngu\\003.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-ngu\\004.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-ngu\\004.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-ngu\\007.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-ngu\\007.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-ngu\\013.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-ngu\\013.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-tam\\005.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-tam\\005.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-tam\\006.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-tam\\006.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-tam\\007.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-tam\\007.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\phong-tam\\008.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\phong-tam\\008.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\tre-em\\016.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\tre-em\\016.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\tre-em\\017.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\tre-em\\017.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\tre-em\\018.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\tre-em\\018.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\Images\\products\\van-phong\\018.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\van-phong\\018.jpg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\css\\fonts.css",
+      "PackagePath": "staticwebassets\\css\\fonts.css"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\fonts\\Gotham-Medium.otf",
+      "PackagePath": "staticwebassets\\fonts\\Gotham-Medium.otf"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\fonts\\Gotham-Thin.otf",
+      "PackagePath": "staticwebassets\\fonts\\Gotham-Thin.otf"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\fonts\\Gotham-Ultra.otf",
+      "PackagePath": "staticwebassets\\fonts\\Gotham-Ultra.otf"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\fonts\\MULI-BOLD.TTF",
+      "PackagePath": "staticwebassets\\fonts\\MULI-BOLD.TTF"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\fonts\\MULI-REGULAR.TTF",
+      "PackagePath": "staticwebassets\\fonts\\MULI-REGULAR.TTF"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\fonts\\MULI-SEMIBOLD.TTF",
+      "PackagePath": "staticwebassets\\fonts\\MULI-SEMIBOLD.TTF"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\fonts\\SVN-Artful Beauty.ttf",
+      "PackagePath": "staticwebassets\\fonts\\SVN-Artful Beauty.ttf"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\fonts\\SVN-Athena_0.ttf",
+      "PackagePath": "staticwebassets\\fonts\\SVN-Athena_0.ttf"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.NETCore_Lesson11.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.NETCore_Lesson11.props",
+      "PackagePath": "build\\NETCore_Lesson11.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.NETCore_Lesson11.props",
+      "PackagePath": "buildMultiTargeting\\NETCore_Lesson11.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.NETCore_Lesson11.props",
+      "PackagePath": "buildTransitive\\NETCore_Lesson11.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

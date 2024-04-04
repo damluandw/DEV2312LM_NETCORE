@@ -9,87 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NetCore_Lesson091_Lab
 build_property.RootNamespace = NetCore_Lesson091_Lab
-build_property.ProjectDir = D:\03.DEVMASTER\Code\DEV2312LM_NETCORE\NETCORE_Lesson10\NetCore_Lesson091_Lab\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = D:\Devmaster\DEV\DEV2312LM_NETCORE\NETCORE_Lesson10\NetCore_Lesson091_Lab\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\03.DEVMASTER\Code\DEV2312LM_NETCORE\NETCORE_Lesson10\NetCore_Lesson091_Lab
+build_property.MSBuildProjectDirectory = D:\Devmaster\DEV\DEV2312LM_NETCORE\NETCORE_Lesson10\NetCore_Lesson091_Lab
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Areas/Admins/Views/Dashboard/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Areas/Admins/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXERhc2hib2FyZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Areas/Admins/Views/Login/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Areas/Admins/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXExvZ2luXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Areas/Admins/Views/Shared/_ContentHeader.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Areas/Admins/Views/Shared/_ContentHeader.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNoYXJlZFxfQ29udGVudEhlYWRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Areas/Admins/Views/Shared/_Navbar.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Areas/Admins/Views/Shared/_Navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNoYXJlZFxfTmF2YmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Areas/Admins/Views/Shared/_Sidebar.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Areas/Admins/Views/Shared/_Sidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNoYXJlZFxfU2lkZWJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Cart/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Home/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Home/Privacy.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Products/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Products/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Products/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Products/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Products/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Shared/Error.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/_ViewImports.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/_ViewStart.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Areas/Admins/Views/Shared/_LayoutAdmin.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Areas/Admins/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNoYXJlZFxfTGF5b3V0QWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ds6xoeu0vs
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Shared/_Layout.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/NETCORE_Lesson10/NetCore_Lesson091_Lab/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-h7uz08nrnt
