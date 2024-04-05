@@ -15,6 +15,7 @@ public partial class DevXuongMocContext : DbContext
     {
     }
 
+    public virtual DbSet<Customer> Customers { get; set; }
     public virtual DbSet<AdminLog> AdminLogs { get; set; }
 
     public virtual DbSet<AdminUser> AdminUsers { get; set; }
@@ -47,12 +48,51 @@ public partial class DevXuongMocContext : DbContext
 
     public virtual DbSet<Slide> Slides { get; set; }
 
-//    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-//        => optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS;Database=DevXuongMoc;Trusted_Connection=True;MultipleActiveResultSets=True; TrustServerCertificate=True");
+    //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+    //        => optionsBuilder.UseSqlServer("Server=.\\SQL2014;Database=DevXuongMoc;Trusted_Connection=True;MultipleActiveResultSets=True; TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Customer>(entity =>
+        {
+            entity
+                .HasNoKey()
+                .ToTable("CUSTOMER");
+
+            entity.Property(e => e.Address)
+                .HasMaxLength(500)
+                .HasColumnName("ADDRESS");
+            entity.Property(e => e.Avatar)
+                .HasMaxLength(250)
+                .HasColumnName("AVATAR");
+            entity.Property(e => e.CreateBy).HasColumnName("CREATE_BY");
+            entity.Property(e => e.CreateDate)
+                .HasColumnType("datetime")
+                .HasColumnName("CREATE_DATE");
+            entity.Property(e => e.Email)
+                .HasMaxLength(150)
+                .HasColumnName("EMAIL");
+            entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.Isactive).HasColumnName("ISACTIVE");
+            entity.Property(e => e.Isdelete).HasColumnName("ISDELETE");
+            entity.Property(e => e.Name)
+                .HasMaxLength(250)
+                .HasColumnName("NAME");
+            entity.Property(e => e.Password)
+                .HasMaxLength(320)
+                .HasColumnName("PASSWORD");
+            entity.Property(e => e.Phone)
+                .HasMaxLength(250)
+                .HasColumnName("PHONE");
+            entity.Property(e => e.UpdateBy).HasColumnName("UPDATE_BY");
+            entity.Property(e => e.UpdateDate)
+                .HasColumnType("datetime")
+                .HasColumnName("UPDATE_DATE");
+            entity.Property(e => e.Username)
+                .HasMaxLength(50)
+                .HasColumnName("USERNAME");
+        });
         modelBuilder.Entity<AdminLog>(entity =>
         {
             entity.HasKey(e => e.LogId).HasName("PK__ADMIN_LO__4364C882D6CFD90D");
@@ -746,7 +786,6 @@ public partial class DevXuongMocContext : DbContext
                 .HasMaxLength(255)
                 .HasColumnName("URLS");
         });
-
         OnModelCreatingPartial(modelBuilder);
     }
 

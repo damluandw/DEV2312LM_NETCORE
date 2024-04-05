@@ -38,6 +38,7 @@ namespace NETCore_Lesson11.Controllers
             ViewBag.total = total;
             return View(carts);
         }
+
         public IActionResult Add(int id)
         {
             if (carts.Any(c => c.Id == id))

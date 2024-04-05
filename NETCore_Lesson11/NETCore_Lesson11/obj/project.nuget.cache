@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p/j0HtcBD09EL+BpX2r8hUPrQZfiPmg+EC9xVdnfLuLn58poA3yKirJrtAZ0V6L9Wm5Q49J88HCLV/eMzdBuCw==",
+  "dgSpecHash": "4Lffxo2ru56F/HWJCdgEORB3i2/ziAy6q3iOqhTd0EVz5fXhrQ/jKPX4Bo2TH9IzS2KK8T6XqiyHYSglvXtMOQ==",
   "success": true,
-  "projectFilePath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\NETCore_Lesson11.csproj",
+  "projectFilePath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\NETCore_Lesson11.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wind\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Wind\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
