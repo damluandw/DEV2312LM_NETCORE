@@ -9,7 +9,7 @@ namespace NETCore_Lesson12_Lab.Models
         {
         }
 
-        DbSet<Account> Accounts { get; set; }
-        DbSet<Customer> Customers { get; set; }
+        public virtual DbSet<Account> Accounts { get; set; }
+        public virtual DbSet<Customer> Customers { get; set; }
     }
 }

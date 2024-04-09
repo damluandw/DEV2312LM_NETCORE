@@ -2,6 +2,7 @@
 using NETCore_Lesson12_Lab.Models;
 using System.Text;
 using System.Security.Cryptography;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace NETCore_Lesson12_Lab.Controllers
@@ -28,14 +29,14 @@ namespace NETCore_Lesson12_Lab.Controllers
                 return View(model);
             }
             // xử lý phần logic đăng nhaapjh tại đây
-            var pass = getHashSha256(model.Password);
-            //var pass = model.Password;
-            var dataLogin = _context.AdminUsers.Where(x => x.Email.Equals(model.Email) && x.Password.Equals(pass)).FirstOrDefault();
+            //var pass = getHashSha256(model.Password);
+            var pass = model.Password;
+            var dataLogin = _context.Accounts.Where(x => x.Email.Equals(model.Email) && x.Password.Equals(pass)).FirstOrDefault();
             if (dataLogin != null)
             {
                 ViewBag.Login = "Đăng nhập thành công";
                 HttpContext.Session.SetString("AdminLogin", model.Email);
-                return RedirectToAction("Index", "Dashboard");
+                return RedirectToAction("Index", "Home");
             }
             // Lưu session khi đăng nhập thành công
             ViewBag.Login = "Sai thông tin đăng nhập";
@@ -61,21 +62,21 @@ namespace NETCore_Lesson12_Lab.Controllers
         [HttpGet]
         public IActionResult Register()
         {
-            var modelLogin = new Customer();
+            var modelLogin = new Account();
             return View(modelLogin);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Register([Bind("ID, NAME, USERNAME, PASSWORD, ADDRESS, EMAIL, PHONE, AVATAR, CREATE_DATE, UPDATE_DATE, CREATE_BY, UPDATE_BY, ISDELETE, ISACTIVE")] Customer customer)
+        public async Task<IActionResult> Register([Bind("Id, Name, Email, Avatar, Password")] Account account)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(customer);
+                _context.Add(account);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(customer);
+            return View(account);
         }
     }
 }

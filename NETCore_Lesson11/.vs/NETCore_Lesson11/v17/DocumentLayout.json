@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson11\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{41579297-5DC9-4810-A860-6D8043F0BA7E}|NETCore_Lesson11\\NETCore_Lesson11.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson11\\netcore_lesson11\\models\\devxuongmoccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41579297-5DC9-4810-A860-6D8043F0BA7E}|NETCore_Lesson11\\NETCore_Lesson11.csproj|solutionrelative:netcore_lesson11\\models\\devxuongmoccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{41579297-5DC9-4810-A860-6D8043F0BA7E}|NETCore_Lesson11\\NETCore_Lesson11.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson11\\netcore_lesson11\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41579297-5DC9-4810-A860-6D8043F0BA7E}|NETCore_Lesson11\\NETCore_Lesson11.csproj|solutionrelative:netcore_lesson11\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{41579297-5DC9-4810-A860-6D8043F0BA7E}|NETCore_Lesson11\\NETCore_Lesson11.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson11\\netcore_lesson11\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{41579297-5DC9-4810-A860-6D8043F0BA7E}|NETCore_Lesson11\\NETCore_Lesson11.csproj|solutionrelative:netcore_lesson11\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41579297-5DC9-4810-A860-6D8043F0BA7E}|NETCore_Lesson11\\NETCore_Lesson11.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson11\\netcore_lesson11\\models\\devxuongmoccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41579297-5DC9-4810-A860-6D8043F0BA7E}|NETCore_Lesson11\\NETCore_Lesson11.csproj|solutionrelative:netcore_lesson11\\models\\devxuongmoccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41579297-5DC9-4810-A860-6D8043F0BA7E}|NETCore_Lesson11\\NETCore_Lesson11.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson11\\netcore_lesson11\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\Views\\Login\\Register.cshtml",
               "RelativeDocumentMoniker": "NETCore_Lesson11\\Views\\Login\\Register.cshtml",
@@ -82,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "NETCore_Lesson11\\Views\\Login\\Index.cshtml",
@@ -94,28 +94,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LoginController.cs",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "NETCore_Lesson11\\Controllers\\LoginController.cs",
               "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\Controllers\\LoginController.cs",
               "RelativeToolTip": "NETCore_Lesson11\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowC8AAAAxAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T16:32:38.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "DevXuongMocContext.cs",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\Models\\DevXuongMocContext.cs",
               "RelativeDocumentMoniker": "NETCore_Lesson11\\Models\\DevXuongMocContext.cs",
               "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson11\\NETCore_Lesson11\\Models\\DevXuongMocContext.cs",
               "RelativeToolTip": "NETCore_Lesson11\\Models\\DevXuongMocContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA8AAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAvwBQAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T16:18:11.459Z"
+              "WhenOpened": "2024-04-04T16:18:11.459Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
