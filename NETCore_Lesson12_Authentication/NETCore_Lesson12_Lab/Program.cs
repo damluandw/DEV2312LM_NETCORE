@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using NETCore_Lesson12_Lab.Models;
+
 namespace NETCore_Lesson12_Lab
 {
     public class Program
@@ -9,7 +12,9 @@ namespace NETCore_Lesson12_Lab
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-
+            var connectionString = builder.Configuration.GetConnectionString("DbConnection") ?? throw new InvalidOperationException("Connection string 'DbConnection' not found.");
+            builder.Services.AddDbContext<Lesson12DbContext>(options =>
+                options.UseSqlServer(connectionString));
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
