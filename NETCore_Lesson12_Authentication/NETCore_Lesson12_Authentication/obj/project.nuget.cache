@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3w0KbXn6eIlIegTVpsmacJZPp1QxdwYX1OBhZkbJFyPRUCQoQeFjLGDa2O8g2ZKWBGybhQoA3T5mkiWXkvWTjQ==",
+  "dgSpecHash": "s6ojYjjFIKqtZ1pUJnpUsWXfgBv3Uy387RDNvXkegOm/UHQRrK3SPjWBdVtZfUACQYi72BPFbqg4P7mHeoI+Uw==",
   "success": true,
-  "projectFilePath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Authentication.csproj",
+  "projectFilePath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Authentication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wind\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Wind\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
