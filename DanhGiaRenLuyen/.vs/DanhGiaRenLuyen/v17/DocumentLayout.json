@@ -1,0 +1,226 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen\\danhgiarenluyen\\models\\dbmodel\\danhgiarenluyencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|solutionrelative:danhgiarenluyen\\models\\dbmodel\\danhgiarenluyencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen\\danhgiarenluyen\\areas\\admins\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|solutionrelative:danhgiarenluyen\\areas\\admins\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen\\danhgiarenluyen\\areas\\admins\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|solutionrelative:danhgiarenluyen\\areas\\admins\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen\\danhgiarenluyen\\areas\\admins\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|solutionrelative:danhgiarenluyen\\areas\\admins\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen\\danhgiarenluyen\\areas\\admins\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|solutionrelative:danhgiarenluyen\\areas\\admins\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen\\danhgiarenluyen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|solutionrelative:danhgiarenluyen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen\\danhgiarenluyen\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|solutionrelative:danhgiarenluyen\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen\\danhgiarenluyen\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|solutionrelative:danhgiarenluyen\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen\\danhgiarenluyen\\areas\\admins\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|solutionrelative:danhgiarenluyen\\areas\\admins\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen\\danhgiarenluyen\\areas\\admins\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|solutionrelative:danhgiarenluyen\\areas\\admins\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen\\danhgiarenluyen\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|solutionrelative:danhgiarenluyen\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen\\danhgiarenluyen\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E739081A-065F-40DF-A28F-00DE4CE3991A}|DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj|solutionrelative:danhgiarenluyen\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DanhGiaRenLuyenContext.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\Models\\DBModel\\DanhGiaRenLuyenContext.cs",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen\\Models\\DBModel\\DanhGiaRenLuyenContext.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\Models\\DBModel\\DanhGiaRenLuyenContext.cs",
+              "RelativeToolTip": "DanhGiaRenLuyen\\Models\\DBModel\\DanhGiaRenLuyenContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:28:48.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Sidebar.cshtml",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\Areas\\Admins\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen\\Areas\\Admins\\Views\\Shared\\_Sidebar.cshtml",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\Areas\\Admins\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeToolTip": "DanhGiaRenLuyen\\Areas\\Admins\\Views\\Shared\\_Sidebar.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAALYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T16:08:18.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Navbar.cshtml",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\Areas\\Admins\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen\\Areas\\Admins\\Views\\Shared\\_Navbar.cshtml",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\Areas\\Admins\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeToolTip": "DanhGiaRenLuyen\\Areas\\Admins\\Views\\Shared\\_Navbar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T16:06:46.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\appsettings.json",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen\\appsettings.json",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\appsettings.json",
+              "RelativeToolTip": "DanhGiaRenLuyen\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-16T16:00:03.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DanhGiaRenLuyen\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T15:52:31.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\Areas\\Admins\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen\\Areas\\Admins\\Models\\Login.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\Areas\\Admins\\Models\\Login.cs",
+              "RelativeToolTip": "DanhGiaRenLuyen\\Areas\\Admins\\Models\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:50:31.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\Areas\\Admins\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen\\Areas\\Admins\\Views\\Login\\Index.cshtml",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\Areas\\Admins\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "DanhGiaRenLuyen\\Areas\\Admins\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADAAAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T15:50:14.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\Areas\\Admins\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen\\Areas\\Admins\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\Areas\\Admins\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "DanhGiaRenLuyen\\Areas\\Admins\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:49:25.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\Areas\\Admins\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen\\Areas\\Admins\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\Areas\\Admins\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "DanhGiaRenLuyen\\Areas\\Admins\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:48:55.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\Program.cs",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen\\Program.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\Program.cs",
+              "RelativeToolTip": "DanhGiaRenLuyen\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCIAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:48:04.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "DanhGiaRenLuyen\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-16T15:36:10.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "DanhGiaRenLuyen\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:35:43.441Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

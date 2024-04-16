@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NETCore_Lesson12_Lab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8e8d24436f1537bc70bb2d319d67bc408a58084")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+>>>>>>> 43a99cc8772a62ca661c26a8aeaf339e64436473
 [assembly: System.Reflection.AssemblyProductAttribute("NETCore_Lesson12_Lab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NETCore_Lesson12_Lab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
