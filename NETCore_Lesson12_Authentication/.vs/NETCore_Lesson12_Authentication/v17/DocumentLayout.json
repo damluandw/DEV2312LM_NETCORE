@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{561FD5E8-BE0F-40B2-9C26-56B307E21430}|NETCore_Lesson12_Authentication\\NETCore_Lesson12_Authentication.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson12_authentication\\netcore_lesson12_authentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{561FD5E8-BE0F-40B2-9C26-56B307E21430}|NETCore_Lesson12_Authentication\\NETCore_Lesson12_Authentication.csproj|solutionrelative:netcore_lesson12_authentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9849933D-D01D-49BF-A0A0-2137521D1ED1}|NETCore_Lesson12_Lab\\NETCore_Lesson12_Lab.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson12_authentication\\netcore_lesson12_lab\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9849933D-D01D-49BF-A0A0-2137521D1ED1}|NETCore_Lesson12_Lab\\NETCore_Lesson12_Lab.csproj|solutionrelative:netcore_lesson12_lab\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -54,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,7 +74,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Authentication\\appsettings.json",
+              "RelativeDocumentMoniker": "NETCore_Lesson12_Authentication\\appsettings.json",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Authentication\\appsettings.json",
+              "RelativeToolTip": "NETCore_Lesson12_Authentication\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-13T04:10:13.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Lab\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "NETCore_Lesson12_Lab\\Views\\Shared\\_LoginPartial.cshtml",
@@ -78,12 +95,11 @@
               "RelativeToolTip": "NETCore_Lesson12_Lab\\Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-09T16:51:45.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T16:51:45.524Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Lab\\Views\\Login\\Register.cshtml",
               "RelativeDocumentMoniker": "NETCore_Lesson12_Lab\\Views\\Login\\Register.cshtml",
@@ -91,12 +107,11 @@
               "RelativeToolTip": "NETCore_Lesson12_Lab\\Views\\Login\\Register.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-09T16:51:07.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T16:51:07.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Lesson12DbContext.cs",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Lab\\Models\\Lesson12DbContext.cs",
               "RelativeDocumentMoniker": "NETCore_Lesson12_Lab\\Models\\Lesson12DbContext.cs",
@@ -104,12 +119,11 @@
               "RelativeToolTip": "NETCore_Lesson12_Lab\\Models\\Lesson12DbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T16:46:28.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T16:46:28.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Account.cs",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Lab\\Models\\Account.cs",
               "RelativeDocumentMoniker": "NETCore_Lesson12_Lab\\Models\\Account.cs",
@@ -117,12 +131,11 @@
               "RelativeToolTip": "NETCore_Lesson12_Lab\\Models\\Account.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T16:46:22.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T16:46:22.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LoginController.cs",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Lab\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "NETCore_Lesson12_Lab\\Controllers\\LoginController.cs",
@@ -130,12 +143,11 @@
               "RelativeToolTip": "NETCore_Lesson12_Lab\\Controllers\\LoginController.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAowBkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T15:58:15.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T15:58:15.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Customer.cs",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Lab\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "NETCore_Lesson12_Lab\\Models\\Customer.cs",
@@ -143,12 +155,11 @@
               "RelativeToolTip": "NETCore_Lesson12_Lab\\Models\\Customer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T16:46:19.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T16:46:19.987Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Lab\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "NETCore_Lesson12_Lab\\Views\\Shared\\_Layout.cshtml",
@@ -156,25 +167,23 @@
               "RelativeToolTip": "NETCore_Lesson12_Lab\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-09T16:44:34.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T16:44:34.241Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NETCore_Lesson12_Authentication",
+              "DocumentIndex": 9,
+              "Title": "NETCore_Lesson12_Authentication.csproj",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Authentication.csproj",
               "RelativeDocumentMoniker": "NETCore_Lesson12_Authentication\\NETCore_Lesson12_Authentication.csproj",
               "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Authentication.csproj",
               "RelativeToolTip": "NETCore_Lesson12_Authentication\\NETCore_Lesson12_Authentication.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-09T16:42:11.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T16:42:11.753Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Lab\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "NETCore_Lesson12_Lab\\Views\\Login\\Index.cshtml",
@@ -182,12 +191,11 @@
               "RelativeToolTip": "NETCore_Lesson12_Lab\\Views\\Login\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-09T16:42:07.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T16:42:07.8Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Lab\\appsettings.json",
               "RelativeDocumentMoniker": "NETCore_Lesson12_Lab\\appsettings.json",
@@ -195,12 +203,11 @@
               "RelativeToolTip": "NETCore_Lesson12_Lab\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-09T15:50:11.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T15:50:11.349Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Lab\\Program.cs",
               "RelativeDocumentMoniker": "NETCore_Lesson12_Lab\\Program.cs",
@@ -208,8 +215,7 @@
               "RelativeToolTip": "NETCore_Lesson12_Lab\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T15:50:06.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T15:50:06.721Z"
             }
           ]
         }
