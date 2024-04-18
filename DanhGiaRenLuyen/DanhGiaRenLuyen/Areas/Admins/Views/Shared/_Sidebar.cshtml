@@ -59,97 +59,100 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="admins/categories" class="nav-link ">
+
+                            <a asp-area="Admins" asp-controller="Departments" asp-action="Index" class="nav-link ">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Chuyên ngành</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="admins/products" class="nav-link ">
+                            <a asp-area="Admins" asp-controller="Courses" asp-action="Index" class="nav-link ">
+
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Khóa học</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="admins/banners" class="nav-link ">
+                            <a asp-area="Admins" asp-controller="Classes" asp-action="Index" class="nav-link ">
+
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Lớp học</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="admins/blogs" class="nav-link ">
+                            <a asp-area="Admins" asp-controller="Positions" asp-action="Index" class="nav-link ">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Chức vụ</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="admins/customers" class="nav-link ">
+                            <a asp-area="Admins" asp-controller="Students" asp-action="Index" class="nav-link ">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Sinh viên</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="admins/orders" class="nav-link ">
+                            <a asp-area="Admins" asp-controller="Lecturers" asp-action="Index" class="nav-link ">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Giảng viên</p>
                             </a>
-                        </li>                 
+                        </li>
                     </ul>
                 </li>
- 
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Quản lý tài khoản
-                            <i class="fas fa-angle-left right"></i>                    
+                            <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav.html" class="nav-link">
+                            <a asp-area="Admins" asp-controller="Accountstudents" asp-action="Index" class="nav-link ">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Tài khoản sinh viên</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                            <a asp-area="Admins" asp-controller="Accountlecturers" asp-action="Index" class="nav-link ">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Tài khoản giảng viên</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/boxed.html" class="nav-link">
+                            <a asp-area="Admins" asp-controller="Accountadmins" asp-action="Index" class="nav-link ">                          
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Tài khoản admin</p>
                             </a>
                         </li>
-                      
+
                     </ul>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
-                           Đánh giá
+                            Đánh giá
                             <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav.html" class="nav-link">
+                            <a asp-area="Admins" asp-controller="Question" asp-action="Index" class="nav-link ">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Câu hỏi</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                            <a asp-area="Admins" asp-controller="Answers" asp-action="Index" class="nav-link ">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Câu trả lời</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/boxed.html" class="nav-link">
+                            <a asp-area="Admins" asp-controller="TypeQuestions" asp-action="Index" class="nav-link ">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Loại câu hỏi</p>
                             </a>
@@ -168,13 +171,13 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav.html" class="nav-link">
+                            <a asp-area="Admins" asp-controller="SelfAnswer" asp-action="Index" class="nav-link ">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Điểm sinh viên đánh giá</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                               <a asp-area="Admins" asp-controller="ClassAnswers" asp-action="Index" class="nav-link ">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Điểm lớp đánh giá</p>
                             </a>

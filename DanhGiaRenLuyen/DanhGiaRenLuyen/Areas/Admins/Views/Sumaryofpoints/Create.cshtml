@@ -1,0 +1,72 @@
+﻿@model DanhGiaRenLuyen.Models.DBModel.Sumaryofpoint
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admins/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>Sumaryofpoint</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Studentid" class="control-label"></label>
+                <select asp-for="Studentid" class ="form-control" asp-items="ViewBag.Studentid"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Semesterid" class="control-label"></label>
+                <select asp-for="Semesterid" class ="form-control" asp-items="ViewBag.Semesterid"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Selfpoint" class="control-label"></label>
+                <input asp-for="Selfpoint" class="form-control" />
+                <span asp-validation-for="Selfpoint" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Classpoint" class="control-label"></label>
+                <input asp-for="Classpoint" class="form-control" />
+                <span asp-validation-for="Classpoint" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Lecturerpoint" class="control-label"></label>
+                <input asp-for="Lecturerpoint" class="form-control" />
+                <span asp-validation-for="Lecturerpoint" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Classify" class="control-label"></label>
+                <input asp-for="Classify" class="form-control" />
+                <span asp-validation-for="Classify" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Createby" class="control-label"></label>
+                <input asp-for="Createby" class="form-control" />
+                <span asp-validation-for="Createby" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Updateby" class="control-label"></label>
+                <input asp-for="Updateby" class="form-control" />
+                <span asp-validation-for="Updateby" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Updatedate" class="control-label"></label>
+                <input asp-for="Updatedate" class="form-control" />
+                <span asp-validation-for="Updatedate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

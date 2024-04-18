@@ -1,0 +1,50 @@
+﻿@model DanhGiaRenLuyen.Models.DBModel.Classify
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admins/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>Classify</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pointmin" class="control-label"></label>
+                <input asp-for="Pointmin" class="form-control" />
+                <span asp-validation-for="Pointmin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pointmax" class="control-label"></label>
+                <input asp-for="Pointmax" class="form-control" />
+                <span asp-validation-for="Pointmax" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Orderby" class="control-label"></label>
+                <input asp-for="Orderby" class="form-control" />
+                <span asp-validation-for="Orderby" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

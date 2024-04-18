@@ -32,7 +32,7 @@ namespace DanhGiaRenLuyen.Areas.Admins.Controllers
             // xử lý phần logic đăng nhaapjh tại đây
             //var pass = getHashSha256(model.Password);
             var pass = model.Password;
-            var dataLogin = _context.AccountAdmins.Where(x=> x.Username.Equals(model.Username) && x.Password.Equals(pass)).FirstOrDefault();
+            var dataLogin = _context.Accountadmins.Where(x=> x.Username.Equals(model.Username) && x.Password.Equals(pass)).FirstOrDefault();
             if(dataLogin != null)
             {
                 ViewBag.Login = "Đăng nhập thành công";
