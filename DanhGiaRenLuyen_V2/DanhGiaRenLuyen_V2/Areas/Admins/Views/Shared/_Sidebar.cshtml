@@ -44,6 +44,7 @@
             </div>
         </div>
 
+
         <!-- Sidebar Menu -->
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
@@ -131,16 +132,16 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="#" class="nav-link active">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
-                            Đánh giá
+                           Câu hỏi đánh giá
                             <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a asp-area="Admins" asp-controller="Question" asp-action="Index" class="nav-link ">
+                            <a asp-area="Admins" asp-controller="Questions" asp-action="Index" class="nav-link ">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Câu hỏi</p>
                             </a>
@@ -157,6 +158,12 @@
                                 <p>Loại câu hỏi</p>
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a asp-area="Admins" asp-controller="GroupQuestions" asp-action="Index" class="nav-link ">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Nhóm câu hỏi</p>
+                            </a>
+                        </li>
 
                     </ul>
                 </li>
@@ -171,7 +178,7 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a asp-area="Admins" asp-controller="SelfAnswer" asp-action="Index" class="nav-link ">
+                            <a asp-area="Admins" asp-controller="SelfAnswers" asp-action="Index" class="nav-link ">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Điểm sinh viên đánh giá</p>
                             </a>

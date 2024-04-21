@@ -9,7 +9,7 @@ public partial class Answer
 
     public int? QuestionId { get; set; }
 
-    public string? Answer1 { get; set; }
+    public string? ContentAnswer { get; set; }
 
     public int? AnswerScore { get; set; }
 

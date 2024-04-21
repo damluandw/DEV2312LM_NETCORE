@@ -53,19 +53,19 @@ public partial class DanhGiaRenLuyenContext : DbContext
 
     public virtual DbSet<TypeQuestion> TypeQuestions { get; set; }
 
-//    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-//        => optionsBuilder.UseSqlServer("Server=.\\SQL2014;Database=DanhGiaRenLuyen;Trusted_Connection=True;MultipleActiveResultSets=True; TrustServerCertificate=True");
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseSqlServer("Server=.\\SQL2014;Database=DanhGiaRenLuyen;Trusted_Connection=True;MultipleActiveResultSets=True; TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<AccountAdmin>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__AccountA__3214EC070C52CB1A");
+            entity.HasKey(e => e.Id).HasName("PK__AccountA__3214EC07CBC34C68");
 
             entity.ToTable("AccountAdmin");
 
-            entity.HasIndex(e => e.UserName, "UQ__AccountA__C9F2845659755AAA").IsUnique();
+            entity.HasIndex(e => e.UserName, "UQ__AccountA__C9F2845630A653FF").IsUnique();
 
             entity.Property(e => e.CreateBy)
                 .HasMaxLength(20)
@@ -87,11 +87,11 @@ public partial class DanhGiaRenLuyenContext : DbContext
 
         modelBuilder.Entity<AccountLecturer>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__AccountL__3214EC07CD36C280");
+            entity.HasKey(e => e.Id).HasName("PK__AccountL__3214EC07725243A1");
 
             entity.ToTable("AccountLecturer");
 
-            entity.HasIndex(e => e.UserName, "UQ__AccountL__C9F28456074898DA").IsUnique();
+            entity.HasIndex(e => e.UserName, "UQ__AccountL__C9F28456E1F2ECAE").IsUnique();
 
             entity.Property(e => e.CreateBy)
                 .HasMaxLength(20)
@@ -116,11 +116,11 @@ public partial class DanhGiaRenLuyenContext : DbContext
 
         modelBuilder.Entity<AccountStudent>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__AccountS__3214EC07D419A1F3");
+            entity.HasKey(e => e.Id).HasName("PK__AccountS__3214EC079CE9896D");
 
             entity.ToTable("AccountStudent");
 
-            entity.HasIndex(e => e.UserName, "UQ__AccountS__C9F284560FCC8169").IsUnique();
+            entity.HasIndex(e => e.UserName, "UQ__AccountS__C9F2845601F7A737").IsUnique();
 
             entity.Property(e => e.CreateBy)
                 .HasMaxLength(20)
@@ -145,13 +145,11 @@ public partial class DanhGiaRenLuyenContext : DbContext
 
         modelBuilder.Entity<Answer>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Answer__3214EC072B1A3722");
+            entity.HasKey(e => e.Id).HasName("PK__Answer__3214EC07BB4B8F82");
 
             entity.ToTable("Answer");
 
-            entity.Property(e => e.Answer1)
-                .HasMaxLength(500)
-                .HasColumnName("Answer");
+            entity.Property(e => e.ContentAnswer).HasMaxLength(500);
 
             entity.HasOne(d => d.Question).WithMany(p => p.Answers)
                 .HasForeignKey(d => d.QuestionId)
@@ -160,11 +158,11 @@ public partial class DanhGiaRenLuyenContext : DbContext
 
         modelBuilder.Entity<Class>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Class__3214EC0780F158FB");
+            entity.HasKey(e => e.Id).HasName("PK__Class__3214EC07AA04EEDF");
 
             entity.ToTable("Class");
 
-            entity.HasIndex(e => e.Name, "UQ__Class__737584F62A09C0BF").IsUnique();
+            entity.HasIndex(e => e.Name, "UQ__Class__737584F651B41D7D").IsUnique();
 
             entity.Property(e => e.CourseId)
                 .HasMaxLength(4)
@@ -186,7 +184,7 @@ public partial class DanhGiaRenLuyenContext : DbContext
 
         modelBuilder.Entity<ClassAnswer>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__ClassAns__3214EC07A59093C3");
+            entity.HasKey(e => e.Id).HasName("PK__ClassAns__3214EC07431C3DB0");
 
             entity.ToTable("ClassAnswer");
 
@@ -210,7 +208,7 @@ public partial class DanhGiaRenLuyenContext : DbContext
 
         modelBuilder.Entity<Classify>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Classify__3214EC079EB60E84");
+            entity.HasKey(e => e.Id).HasName("PK__Classify__3214EC07694E52BF");
 
             entity.ToTable("Classify");
 
@@ -219,7 +217,7 @@ public partial class DanhGiaRenLuyenContext : DbContext
 
         modelBuilder.Entity<Course>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Course__3214EC07ED9FCDF2");
+            entity.HasKey(e => e.Id).HasName("PK__Course__3214EC07B08B8EC9");
 
             entity.ToTable("Course");
 
@@ -227,14 +225,12 @@ public partial class DanhGiaRenLuyenContext : DbContext
                 .HasMaxLength(4)
                 .IsUnicode(false)
                 .IsFixedLength();
-            entity.Property(e => e.Course1)
-                .HasMaxLength(50)
-                .HasColumnName("Course");
+            entity.Property(e => e.Name).HasMaxLength(50);
         });
 
         modelBuilder.Entity<Department>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Departme__3214EC0721AD8C69");
+            entity.HasKey(e => e.Id).HasName("PK__Departme__3214EC07DE0EF614");
 
             entity.ToTable("Department");
 
@@ -243,18 +239,16 @@ public partial class DanhGiaRenLuyenContext : DbContext
 
         modelBuilder.Entity<GroupQuestion>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__GroupQue__3214EC07B34552C9");
+            entity.HasKey(e => e.Id).HasName("PK__GroupQue__3214EC0700A73774");
 
             entity.ToTable("GroupQuestion");
 
-            entity.Property(e => e.GroupQuestion1)
-                .HasMaxLength(255)
-                .HasColumnName("GroupQuestion");
+            entity.Property(e => e.Name).HasMaxLength(255);
         });
 
         modelBuilder.Entity<Lecturer>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Lecturer__3214EC07F78EBFD1");
+            entity.HasKey(e => e.Id).HasName("PK__Lecturer__3214EC0799D6F1F6");
 
             entity.ToTable("Lecturer");
 
@@ -265,9 +259,7 @@ public partial class DanhGiaRenLuyenContext : DbContext
             entity.Property(e => e.Email)
                 .HasMaxLength(50)
                 .IsUnicode(false);
-            entity.Property(e => e.FullName)
-                .HasMaxLength(50)
-                .IsUnicode(false);
+            entity.Property(e => e.FullName).HasMaxLength(50);
             entity.Property(e => e.Phone)
                 .HasMaxLength(15)
                 .IsUnicode(false);
@@ -287,7 +279,7 @@ public partial class DanhGiaRenLuyenContext : DbContext
 
         modelBuilder.Entity<Position>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Position__3214EC07699B1118");
+            entity.HasKey(e => e.Id).HasName("PK__Position__3214EC07FED8DD66");
 
             entity.ToTable("Position");
 
@@ -300,13 +292,11 @@ public partial class DanhGiaRenLuyenContext : DbContext
 
         modelBuilder.Entity<Question>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Question__3214EC078B4828FB");
+            entity.HasKey(e => e.Id).HasName("PK__Question__3214EC07CFA4027A");
 
             entity.ToTable("Question");
 
-            entity.Property(e => e.Question1)
-                .HasMaxLength(500)
-                .HasColumnName("Question");
+            entity.Property(e => e.ContentQuestion).HasMaxLength(500);
 
             entity.HasOne(d => d.GroupQuestion).WithMany(p => p.Questions)
                 .HasForeignKey(d => d.GroupQuestionId)
@@ -323,14 +313,14 @@ public partial class DanhGiaRenLuyenContext : DbContext
 
         modelBuilder.Entity<Role>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Roles__3214EC07489B74EA");
+            entity.HasKey(e => e.Id).HasName("PK__Roles__3214EC070A0F1427");
 
             entity.Property(e => e.RoleName).HasMaxLength(100);
         });
 
         modelBuilder.Entity<SelfAnswer>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__SelfAnsw__3214EC0780F0DBD0");
+            entity.HasKey(e => e.Id).HasName("PK__SelfAnsw__3214EC07E93F5EE6");
 
             entity.ToTable("SelfAnswer");
 
@@ -350,7 +340,7 @@ public partial class DanhGiaRenLuyenContext : DbContext
 
         modelBuilder.Entity<Semester>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Semester__3214EC07AF8CF1C5");
+            entity.HasKey(e => e.Id).HasName("PK__Semester__3214EC07047A2E43");
 
             entity.ToTable("Semester");
 
@@ -358,20 +348,19 @@ public partial class DanhGiaRenLuyenContext : DbContext
             entity.Property(e => e.DateEndLecturer).HasColumnType("datetime");
             entity.Property(e => e.DateEndStudent).HasColumnType("datetime");
             entity.Property(e => e.DateOpenStudent).HasColumnType("datetime");
+            entity.Property(e => e.Name)
+                .HasMaxLength(2)
+                .IsUnicode(false)
+                .IsFixedLength();
             entity.Property(e => e.SchoolYear)
                 .HasMaxLength(10)
                 .IsUnicode(false)
                 .IsFixedLength();
-            entity.Property(e => e.Semester1)
-                .HasMaxLength(2)
-                .IsUnicode(false)
-                .IsFixedLength()
-                .HasColumnName("Semester");
         });
 
         modelBuilder.Entity<Student>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Student__3214EC073156BE88");
+            entity.HasKey(e => e.Id).HasName("PK__Student__3214EC07A3370951");
 
             entity.ToTable("Student");
 
@@ -402,7 +391,7 @@ public partial class DanhGiaRenLuyenContext : DbContext
 
         modelBuilder.Entity<SumaryOfPoint>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__SumaryOf__3214EC07E0BFECC6");
+            entity.HasKey(e => e.Id).HasName("PK__SumaryOf__3214EC07AFAC219F");
 
             entity.ToTable("SumaryOfPoint");
 
@@ -432,13 +421,11 @@ public partial class DanhGiaRenLuyenContext : DbContext
 
         modelBuilder.Entity<TypeQuestion>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__TypeQues__3214EC07EE6C3DD6");
+            entity.HasKey(e => e.Id).HasName("PK__TypeQues__3214EC07AC869142");
 
             entity.ToTable("TypeQuestion");
 
-            entity.Property(e => e.TypeQuestion1)
-                .HasMaxLength(100)
-                .HasColumnName("TypeQuestion");
+            entity.Property(e => e.Name).HasMaxLength(100);
         });
 
         OnModelCreatingPartial(modelBuilder);

@@ -1,0 +1,73 @@
+﻿@model DanhGiaRenLuyen_V2.Models.DBModel.SumaryOfPoint
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admins/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>SumaryOfPoint</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SelfPoint)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SelfPoint)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ClassPoint)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ClassPoint)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LecturerPoint)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LecturerPoint)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Classify)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Classify)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CreateBy)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreateBy)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CreateDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreateDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UpdateDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UpdateDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Semester)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Semester.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Student)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Student.Id)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

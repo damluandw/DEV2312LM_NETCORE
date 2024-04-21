@@ -7,7 +7,7 @@ public partial class Question
 {
     public int Id { get; set; }
 
-    public string? Question1 { get; set; }
+    public string? ContentQuestion { get; set; }
 
     public int? TypeQuestionId { get; set; }
 

@@ -1,0 +1,37 @@
+﻿@model DanhGiaRenLuyen_V2.Models.DBModel.ClassAnswer
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admins/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>ClassAnswer</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CreateBy)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreateBy)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Answer)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Answer.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Student)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Student.Id)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

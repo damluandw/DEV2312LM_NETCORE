@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson06\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{75CDC767-C9E0-4CFE-AAAD-8A4FB0A9B79F}|NETCore_Lesson06\\NETCore_Lesson06.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson06\\netcore_lesson06\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CDC767-C9E0-4CFE-AAAD-8A4FB0A9B79F}|NETCore_Lesson06\\NETCore_Lesson06.csproj|solutionrelative:netcore_lesson06\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{736D91EB-750F-4382-9120-F14C1261F996}|NETCore_Lesson06_Lab01\\NETCore_Lesson06_Lab01.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\netcore_lesson06\\netcore_lesson06_lab01\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{736D91EB-750F-4382-9120-F14C1261F996}|NETCore_Lesson06_Lab01\\NETCore_Lesson06_Lab01.csproj|solutionrelative:netcore_lesson06_lab01\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson06\\NETCore_Lesson06\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "NETCore_Lesson06\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson06\\NETCore_Lesson06\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "NETCore_Lesson06\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAcwDkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T15:54:57.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson06\\NETCore_Lesson06_Lab01\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "NETCore_Lesson06_Lab01\\Views\\Shared\\_Layout.cshtml",
@@ -50,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson06\\NETCore_Lesson06_Lab01\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "NETCore_Lesson06_Lab01\\Controllers\\ProductsController.cs",
@@ -63,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson06\\NETCore_Lesson06_Lab01\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "NETCore_Lesson06_Lab01\\Controllers\\CategoriesController.cs",

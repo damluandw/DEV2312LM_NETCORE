@@ -7,7 +7,7 @@ public partial class Semester
 {
     public int Id { get; set; }
 
-    public string? Semester1 { get; set; }
+    public string? Name { get; set; }
 
     public string? SchoolYear { get; set; }
 

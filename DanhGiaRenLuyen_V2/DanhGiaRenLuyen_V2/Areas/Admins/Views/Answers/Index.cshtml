@@ -1,0 +1,51 @@
+﻿@model IEnumerable<DanhGiaRenLuyen_V2.Models.DBModel.Answer>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admins/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Question)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContentAnswer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AnswerScore)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Question.ContentQuestion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ContentAnswer)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AnswerScore)
+                </td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

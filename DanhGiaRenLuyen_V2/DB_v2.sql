@@ -1,4 +1,6 @@
-﻿CREATE TABLE Department(
+﻿USE  DanhGiaRenLuyen
+GO
+CREATE TABLE Department(
 Id INT IDENTITY   PRIMARY KEY,
 Name NVARCHAR(50) ,
 Times INT ,)
@@ -6,7 +8,7 @@ Times INT ,)
 
 CREATE TABLE Course(
 Id CHAR(4)  PRIMARY KEY,
-Course NVARCHAR(50) ,)
+Name NVARCHAR(50) ,)
 
 
 
@@ -30,7 +32,7 @@ FullName NVARCHAR(50) ,
 Birthday DATE ,
 Email VARCHAR(50) ,
 Phone VARCHAR(15) ,
-Gender bit ,
+Gender BIT ,
 ClassId INT FOREIGN KEY (CLASSId)REFERENCES CLASS(Id),
 PositionId CHAR(3) FOREIGN KEY (POSITIONId)REFERENCES POSITION(Id),
 IsActive TINYINT ,)
@@ -39,7 +41,7 @@ IsActive TINYINT ,)
 
 CREATE TABLE Lecturer(
 Id CHAR(10)  PRIMARY KEY,
-FullName VARCHAR(50) ,
+FullName NVARCHAR(50) ,
 DepartmentId INT FOREIGN KEY (DEPARTMENTId)REFERENCES DEPARTMENT(Id),
 PositionId CHAR(3) FOREIGN KEY (POSITIONId)REFERENCES POSITION(Id),
 Birthday DATE ,
@@ -95,7 +97,7 @@ RoleId INT FOREIGN KEY (ROLEId)REFERENCES ROLES(Id),)
 
 CREATE TABLE Semester(
 Id INT IDENTITY   PRIMARY KEY,
-Semester CHAR(2) ,
+Name CHAR(2) ,
 SchoolYear CHAR(10) ,
 DateOpenStudent DATETIME ,
 DateEndStudent DATETIME ,
@@ -106,18 +108,18 @@ IsActive TINYINT ,)
 
 CREATE TABLE TypeQuestion(
 Id INT IDENTITY   PRIMARY KEY,
-TypeQuestion NVARCHAR(100) ,)
+Name NVARCHAR(100) ,)
 
 
 
 CREATE TABLE GroupQuestion(
 Id INT IDENTITY   PRIMARY KEY,
-GroupQuestion NVARCHAR(255) ,)
+Name NVARCHAR(255) ,)
 
 
 CREATE TABLE Question(
 Id INT IDENTITY   PRIMARY KEY,
-Question NVARCHAR(500) ,
+ContentQuestion NVARCHAR(500) ,
 TypeQuestionId INT FOREIGN KEY (TYPEQUESTIONId)REFERENCES TYPEQUESTION(Id),
 SemesterId INT FOREIGN KEY (SEMESTERId)REFERENCES SEMESTER(Id),
 GroupQuestionId INT FOREIGN KEY (GroupQuestionId)REFERENCES GroupQuestion(Id),
@@ -127,7 +129,7 @@ OrderBy INT ,)
 CREATE TABLE Answer(
 Id INT IDENTITY   PRIMARY KEY,
 QuestionId INT FOREIGN KEY (QUESTIONId)REFERENCES QUESTION(Id),
-Answer NVARCHAR(500) ,
+ContentAnswer NVARCHAR(500) ,
 AnswerScore INT ,)
 
 
@@ -171,7 +173,6 @@ Name NVARCHAR(50) ,
 PointMin INT ,
 PointMax INT ,
 OrderBy INT ,)
-
 GO
 
 INSERT INTO  DEPARTMENT VALUES (N'Công nghệ thông tin', 4)
@@ -195,7 +196,7 @@ INSERT INTO  POSITION VALUES
 ('LT',N'Lớp trưởng'),
 ('GV',N'Giảng viên')
 INSERT INTO  LECTURER VALUES
-('GV00000001','Đàm Luận',1,'GV','19970917','luan.dv@ntu-hn.edu.vn','0976897563',1)
+('GV00000001',N'Đàm Luận',1,'GV','19970917','luan.dv@ntu-hn.edu.vn','0976897563',1)
 INSERT INTO  [dbo].[Roles] VALUES
 ('admin',1)
 INSERT INTO  [dbo].[ACCOUNTADMIN] ([USERNAME],[PASSWORD],ISACTIVE,ROLEID) VALUES
