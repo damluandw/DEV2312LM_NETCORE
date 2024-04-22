@@ -278,6 +278,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFF1ZXN0aW9uc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Questions/CreateAnswer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFF1ZXN0aW9uc1xDcmVhdGVBbnN3ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Questions/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFF1ZXN0aW9uc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

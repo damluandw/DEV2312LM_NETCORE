@@ -3,11 +3,13 @@
     ViewData["Title"] = "DetailsAnswer";
     Layout = "~/Areas/Admins/Views/Shared/_LayoutAdmin.cshtml";
     // var answers = Model as List<DanhGiaRenLuyen_V2.Models.DBModel.Answer>;
+    var question = @ViewBag.Question as DanhGiaRenLuyen_V2.Models.DBModel.Question;
 }
 
-<h1>@ViewBag.QuestionId</h1>
+<h1>@question.ContentQuestion</h1>
 <p>
-    <a asp-action="Create">Thêm câu trả lời</a>
+    @* <a asp-controller="Answers" asp-action="Create">Thêm câu trả lời</a> *@
+    <a asp-action="CreateAnswer" asp-route-id="@question.Id">Thêm câu trả lời</a>
 </p>
 <table class="table">
     <thead>
@@ -40,9 +42,12 @@
                 </td>
 
                 <td>
-                    <a asp-controller="Answers" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+            @*         <a asp-controller="Answers" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                     <a asp-controller="Answers" asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-controller="Answers" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <a asp-controller="Answers" asp-action="Delete" asp-route-id="@item.Id">Delete</a> *@
+                    <a asp-action="EditAnswer" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="DetailsAnswer" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="DeleteAnswer" asp-route-id="@item.Id">Delete</a>
                 </td>
             </tr>
         }

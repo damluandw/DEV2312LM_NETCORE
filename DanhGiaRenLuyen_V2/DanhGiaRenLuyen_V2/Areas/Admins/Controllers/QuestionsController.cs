@@ -210,10 +210,87 @@ namespace DanhGiaRenLuyen_V2.Areas.Admins.Controllers
             //ViewData["TypeQuestionId"] = new SelectList(_context.TypeQuestions, "Id", "Name", question.TypeQuestionId);
 
             var answer = await _context.Answers.Where(a => a.QuestionId == id).ToListAsync();
-            ViewData["QuestionId"] = question.ContentQuestion;
+            ViewData["Question"] = question;
+            return View(answer);
+        }
+        // GET: Admins/Questions/Details/5
+        public async Task<IActionResult> DetailsAnswer(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var answer = await _context.Answers
+                .Include(a => a.Question)
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (answer == null)
+            {
+                return NotFound();
+            }
+
             return View(answer);
         }
 
+        // GET: Admins/Questions/CreateAnswer
+        public async Task<IActionResult> CreateAnswer(int? id)
+        {
+     
+            if (id == null || _context.Questions == null)
+            {
+                return NotFound();
+            }
+
+            var question = await _context.Questions.FindAsync(id);
+            ViewData["Question"] = question;
+            return View();
+        }
+
+        // POST: Admins/Questions/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CreateAnswer(int? id, [Bind("Id,QuestionId,ContentAnswer,AnswerScore")] Answer answer)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            Answer an = new Answer();
+            an.QuestionId = id;
+            an.ContentAnswer = answer.ContentAnswer;
+            an.AnswerScore = answer.AnswerScore;
+            if (ModelState.IsValid)
+            {
+                _context.Add(an);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(IndexAnswer),new { id });
+            }
+            ViewData["QuestionId"] = new SelectList(_context.Questions, "Id", "ContentQuestion", answer.QuestionId);
+            return View(an);
+        }
+
+        // GET: Admins/Questions/Edit/5
+        public async Task<IActionResult> EditAnswer(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var answer = await _context.Answers.FindAsync(id);
+            if (answer == null)
+            {
+                return NotFound();
+            }
+            ViewData["QuestionId"] = new SelectList(_context.Questions, "Id", "ContentQuestion", answer.QuestionId);
+            return View(answer);
+        }
+
+        // POST: Admins/Answers/Edit/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         // POST: Admins/Answers/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -251,6 +328,42 @@ namespace DanhGiaRenLuyen_V2.Areas.Admins.Controllers
             ViewData["QuestionId"] = question.ContentQuestion;
             return View(answers);
         }
+
+        // GET: Admins/Answers/Delete/5
+        public async Task<IActionResult> DeleteAnswer(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var answer = await _context.Answers
+                .Include(a => a.Question)
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (answer == null)
+            {
+                return NotFound();
+            }
+
+            return View(answer);
+        }
+
+        // POST: Admins/Answers/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmedAnswer(int id)
+        {
+            var answer = await _context.Answers.FindAsync(id);
+            if (answer != null)
+            {
+                _context.Answers.Remove(answer);
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        
         private bool AnswerExists(int id)
         {
             return _context.Answers.Any(e => e.Id == id);
