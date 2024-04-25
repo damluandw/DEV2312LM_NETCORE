@@ -22,10 +22,20 @@ namespace DanhGiaRenLuyen_V2.Areas.Admins.Controllers
         }
 
         // GET: Admins/Questions
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? semesterId)
         {
-            var danhGiaRenLuyenContext = _context.Questions.Include(q => q.GroupQuestion).Include(q => q.Semester).Include(q => q.TypeQuestion);
-            return View(await danhGiaRenLuyenContext.ToListAsync());
+            
+            
+            if (semesterId == null)
+            {
+                var danhGiaRenLuyenContext = _context.Questions.Include(q => q.GroupQuestion).Include(q => q.Semester).Include(q => q.TypeQuestion);
+                return View(await danhGiaRenLuyenContext.ToListAsync());
+            }
+            else 
+            {
+                var danhGiaRenLuyenContext = _context.Questions.Where(x => x.SemesterId == semesterId).Include(q => q.GroupQuestion).Include(q => q.Semester).Include(q => q.TypeQuestion);
+                return View(await danhGiaRenLuyenContext.ToListAsync());
+            }                
         }
 
         // GET: Admins/Questions/Details/5
