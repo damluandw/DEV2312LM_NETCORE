@@ -58,8 +58,7 @@
               "RelativeToolTip": "DanhGiaRenLuyen_V2\\Areas\\Admins\\Views\\Questions\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-25T16:44:48.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T16:44:48.438Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "DanhGiaRenLuyen_V2\\Areas\\Admins\\Views\\Questions\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-25T16:44:39.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T16:44:39.001Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "DanhGiaRenLuyen_V2\\Models\\DBModel\\DanhGiaRenLuyenContext.cs",
               "ViewState": "AQIAACcAAAAAAAAAAAA0wDQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T16:41:13.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T16:41:13.453Z"
             },
             {
               "$type": "Document",
@@ -95,7 +92,7 @@
               "RelativeDocumentMoniker": "DanhGiaRenLuyen_V2\\Areas\\Admins\\Controllers\\QuestionsController.cs",
               "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V2\\DanhGiaRenLuyen_V2\\Areas\\Admins\\Controllers\\QuestionsController.cs",
               "RelativeToolTip": "DanhGiaRenLuyen_V2\\Areas\\Admins\\Controllers\\QuestionsController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAjAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwBwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T16:30:10.406Z",
               "EditorCaption": ""
@@ -110,8 +107,7 @@
               "RelativeToolTip": "DanhGiaRenLuyen_V2\\Areas\\Admins\\Views\\Questions\\Create.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-25T16:29:14.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T16:29:14.166Z"
             },
             {
               "$type": "Document",
@@ -123,8 +119,7 @@
               "RelativeToolTip": "DanhGiaRenLuyen_V2\\Areas\\Admins\\Views\\Shared\\_Sidebar.cshtml",
               "ViewState": "AQIAAIoAAAAAAAAAAAAAAKYAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-25T16:27:34.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T16:27:34.13Z"
             }
           ]
         }
