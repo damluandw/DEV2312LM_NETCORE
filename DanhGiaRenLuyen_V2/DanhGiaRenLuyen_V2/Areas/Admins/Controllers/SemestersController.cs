@@ -64,7 +64,15 @@ namespace DanhGiaRenLuyen_V2.Areas.Admins.Controllers
             }
             return View(semester);
         }
+        public IActionResult CreateQuestions(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
 
+            return View();
+        }
         // GET: Admins/Semesters/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -72,7 +80,6 @@ namespace DanhGiaRenLuyen_V2.Areas.Admins.Controllers
             {
                 return NotFound();
             }
-
             var semester = await _context.Semesters.FindAsync(id);
             if (semester == null)
             {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj": {}
+    "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj": {}
   },
   "projects": {
-    "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj": {
+    "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj",
+        "projectUniqueName": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj",
         "projectName": "DanhGiaRenLuyen",
-        "projectPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj",
+        "projectPath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\DanhGiaRenLuyen.csproj",
         "packagesPath": "C:\\Users\\Wind\\.nuget\\packages\\",
-        "outputPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\obj\\",
+        "outputPath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen\\DanhGiaRenLuyen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Wind\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -89,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

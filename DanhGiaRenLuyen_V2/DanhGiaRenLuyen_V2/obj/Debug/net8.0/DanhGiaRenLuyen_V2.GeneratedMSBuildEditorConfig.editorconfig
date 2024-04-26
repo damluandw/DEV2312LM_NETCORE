@@ -17,475 +17,479 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DanhGiaRenLuyen_V2
 build_property.RootNamespace = DanhGiaRenLuyen_V2
-build_property.ProjectDir = D:\03.DEVMASTER\Code\DEV2312LM_NETCORE\DanhGiaRenLuyen_V2\DanhGiaRenLuyen_V2\
+build_property.ProjectDir = D:\Devmaster\DEV\DEV2312LM_NETCORE\DanhGiaRenLuyen_V2\DanhGiaRenLuyen_V2\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\03.DEVMASTER\Code\DEV2312LM_NETCORE\DanhGiaRenLuyen_V2\DanhGiaRenLuyen_V2
+build_property.MSBuildProjectDirectory = D:\Devmaster\DEV\DEV2312LM_NETCORE\DanhGiaRenLuyen_V2\DanhGiaRenLuyen_V2
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountAdmins/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountAdmins/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFjY291bnRBZG1pbnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountAdmins/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountAdmins/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFjY291bnRBZG1pbnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountAdmins/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountAdmins/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFjY291bnRBZG1pbnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountAdmins/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountAdmins/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFjY291bnRBZG1pbnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountAdmins/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountAdmins/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFjY291bnRBZG1pbnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountLecturers/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountLecturers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFjY291bnRMZWN0dXJlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountLecturers/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountLecturers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFjY291bnRMZWN0dXJlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountLecturers/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountLecturers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFjY291bnRMZWN0dXJlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountLecturers/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountLecturers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFjY291bnRMZWN0dXJlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountLecturers/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountLecturers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFjY291bnRMZWN0dXJlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountStudents/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountStudents/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFjY291bnRTdHVkZW50c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountStudents/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountStudents/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFjY291bnRTdHVkZW50c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountStudents/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountStudents/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFjY291bnRTdHVkZW50c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountStudents/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountStudents/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFjY291bnRTdHVkZW50c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountStudents/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/AccountStudents/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFjY291bnRTdHVkZW50c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Answers/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Answers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFuc3dlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Answers/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Answers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFuc3dlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Answers/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Answers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFuc3dlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Answers/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Answers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFuc3dlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Answers/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Answers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFuc3dlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/ClassAnswers/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/ClassAnswers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENsYXNzQW5zd2Vyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/ClassAnswers/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/ClassAnswers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENsYXNzQW5zd2Vyc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/ClassAnswers/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/ClassAnswers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENsYXNzQW5zd2Vyc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/ClassAnswers/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/ClassAnswers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENsYXNzQW5zd2Vyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/ClassAnswers/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/ClassAnswers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENsYXNzQW5zd2Vyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Classes/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Classes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENsYXNzZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Classes/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Classes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENsYXNzZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Classes/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Classes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENsYXNzZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Classes/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Classes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENsYXNzZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Classes/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Classes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENsYXNzZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Classifies/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Classifies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENsYXNzaWZpZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Classifies/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Classifies/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENsYXNzaWZpZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Classifies/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Classifies/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENsYXNzaWZpZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Classifies/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Classifies/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENsYXNzaWZpZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Classifies/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Classifies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENsYXNzaWZpZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Courses/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Courses/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENvdXJzZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Courses/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Courses/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENvdXJzZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Courses/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Courses/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENvdXJzZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Courses/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Courses/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENvdXJzZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Courses/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Courses/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENvdXJzZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Dashboard/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXERhc2hib2FyZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Departments/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Departments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXERlcGFydG1lbnRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Departments/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Departments/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXERlcGFydG1lbnRzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Departments/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Departments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXERlcGFydG1lbnRzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Departments/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Departments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXERlcGFydG1lbnRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Departments/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Departments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXERlcGFydG1lbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/GroupQuestions/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/GroupQuestions/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEdyb3VwUXVlc3Rpb25zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/GroupQuestions/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/GroupQuestions/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEdyb3VwUXVlc3Rpb25zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/GroupQuestions/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/GroupQuestions/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEdyb3VwUXVlc3Rpb25zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/GroupQuestions/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/GroupQuestions/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEdyb3VwUXVlc3Rpb25zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/GroupQuestions/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/GroupQuestions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEdyb3VwUXVlc3Rpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Lecturers/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Lecturers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXExlY3R1cmVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Lecturers/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Lecturers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXExlY3R1cmVyc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Lecturers/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Lecturers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXExlY3R1cmVyc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Lecturers/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Lecturers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXExlY3R1cmVyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Lecturers/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Lecturers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXExlY3R1cmVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Login/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXExvZ2luXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Positions/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Positions/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFBvc2l0aW9uc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Positions/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Positions/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFBvc2l0aW9uc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Positions/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Positions/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFBvc2l0aW9uc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Positions/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Positions/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFBvc2l0aW9uc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Positions/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Positions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFBvc2l0aW9uc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Questions/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Questions/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFF1ZXN0aW9uc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Questions/CreateAnswer.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Questions/CreateAnswer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFF1ZXN0aW9uc1xDcmVhdGVBbnN3ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Questions/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Questions/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFF1ZXN0aW9uc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Questions/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Questions/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFF1ZXN0aW9uc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Questions/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Questions/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFF1ZXN0aW9uc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Questions/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Questions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFF1ZXN0aW9uc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Questions/IndexAnswer.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Questions/IndexAnswer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFF1ZXN0aW9uc1xJbmRleEFuc3dlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Roles/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Roles/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFJvbGVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Roles/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Roles/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFJvbGVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Roles/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Roles/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFJvbGVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Roles/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Roles/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFJvbGVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Roles/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Roles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFJvbGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/SelfAnswers/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/SelfAnswers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNlbGZBbnN3ZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/SelfAnswers/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/SelfAnswers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNlbGZBbnN3ZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/SelfAnswers/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/SelfAnswers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNlbGZBbnN3ZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/SelfAnswers/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/SelfAnswers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNlbGZBbnN3ZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/SelfAnswers/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/SelfAnswers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNlbGZBbnN3ZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Semesters/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Semesters/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNlbWVzdGVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Semesters/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Semesters/CreateQuestions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNlbWVzdGVyc1xDcmVhdGVRdWVzdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Semesters/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNlbWVzdGVyc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Semesters/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Semesters/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNlbWVzdGVyc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Semesters/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Semesters/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNlbWVzdGVyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Semesters/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Semesters/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNlbWVzdGVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Shared/Error.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Shared/_ContentHeader.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Shared/_ContentHeader.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNoYXJlZFxfQ29udGVudEhlYWRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Shared/_Navbar.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Shared/_Navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNoYXJlZFxfTmF2YmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Shared/_Sidebar.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Shared/_Sidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNoYXJlZFxfU2lkZWJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Students/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Students/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFN0dWRlbnRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Students/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Students/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFN0dWRlbnRzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Students/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Students/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFN0dWRlbnRzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Students/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Students/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFN0dWRlbnRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Students/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Students/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFN0dWRlbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/SumaryOfPoints/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/SumaryOfPoints/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFN1bWFyeU9mUG9pbnRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/SumaryOfPoints/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/SumaryOfPoints/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFN1bWFyeU9mUG9pbnRzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/SumaryOfPoints/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/SumaryOfPoints/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFN1bWFyeU9mUG9pbnRzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/SumaryOfPoints/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/SumaryOfPoints/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFN1bWFyeU9mUG9pbnRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/SumaryOfPoints/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/SumaryOfPoints/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFN1bWFyeU9mUG9pbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/TypeQuestions/Create.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/TypeQuestions/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFR5cGVRdWVzdGlvbnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/TypeQuestions/Delete.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/TypeQuestions/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFR5cGVRdWVzdGlvbnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/TypeQuestions/Details.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/TypeQuestions/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFR5cGVRdWVzdGlvbnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/TypeQuestions/Edit.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/TypeQuestions/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFR5cGVRdWVzdGlvbnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/TypeQuestions/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/TypeQuestions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFR5cGVRdWVzdGlvbnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/_ViewImports.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/_ViewStart.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/_ViewImports.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/_ViewStart.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Views/Home/Index.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Views/Home/Privacy.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Views/Shared/Error.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Views/_ViewImports.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Views/_ViewStart.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Shared/_LayoutAdmin.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Areas/Admins/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNoYXJlZFxfTGF5b3V0QWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-oxw0nv6l85
 
-[D:/03.DEVMASTER/Code/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Views/Shared/_Layout.cshtml]
+[D:/Devmaster/DEV/DEV2312LM_NETCORE/DanhGiaRenLuyen_V2/DanhGiaRenLuyen_V2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rmu4ei57q8
