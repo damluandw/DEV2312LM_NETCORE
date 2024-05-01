@@ -21,8 +21,6 @@ public partial class DanhGiaRenLuyenContext : DbContext
 
     public virtual DbSet<AccountStudent> AccountStudents { get; set; }
 
-    public virtual DbSet<Answer> Answers { get; set; }
-
     public virtual DbSet<Class> Classes { get; set; }
 
     public virtual DbSet<ClassAnswer> ClassAnswers { get; set; }
@@ -39,8 +37,7 @@ public partial class DanhGiaRenLuyenContext : DbContext
 
     public virtual DbSet<Position> Positions { get; set; }
 
-    public virtual DbSet<Question> Questions { get; set; }
-
+    
     public virtual DbSet<Role> Roles { get; set; }
 
     public virtual DbSet<SelfAnswer> SelfAnswers { get; set; }
@@ -141,19 +138,6 @@ public partial class DanhGiaRenLuyenContext : DbContext
             entity.HasOne(d => d.Student).WithMany(p => p.AccountStudents)
                 .HasForeignKey(d => d.StudentId)
                 .HasConstraintName("FK__AccountSt__Stude__239E4DCF");
-        });
-
-        modelBuilder.Entity<Answer>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__Answer__3214EC07BB4B8F82");
-
-            entity.ToTable("Answer");
-
-            entity.Property(e => e.ContentAnswer).HasMaxLength(500);
-
-            entity.HasOne(d => d.Question).WithMany(p => p.Answers)
-                .HasForeignKey(d => d.QuestionId)
-                .HasConstraintName("FK__Answer__Question__3A81B327");
         });
 
         modelBuilder.Entity<Class>(entity =>
@@ -290,26 +274,7 @@ public partial class DanhGiaRenLuyenContext : DbContext
             entity.Property(e => e.Name).HasMaxLength(20);
         });
 
-        modelBuilder.Entity<Question>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__Question__3214EC07CFA4027A");
-
-            entity.ToTable("Question");
-
-            entity.Property(e => e.ContentQuestion).HasMaxLength(500);
-
-            entity.HasOne(d => d.GroupQuestion).WithMany(p => p.Questions)
-                .HasForeignKey(d => d.GroupQuestionId)
-                .HasConstraintName("FK__Question__GroupQ__37A5467C");
-
-            entity.HasOne(d => d.Semester).WithMany(p => p.Questions)
-                .HasForeignKey(d => d.SemesterId)
-                .HasConstraintName("FK__Question__Semest__36B12243");
-
-            entity.HasOne(d => d.TypeQuestion).WithMany(p => p.Questions)
-                .HasForeignKey(d => d.TypeQuestionId)
-                .HasConstraintName("FK__Question__TypeQu__35BCFE0A");
-        });
+      
 
         modelBuilder.Entity<Role>(entity =>
         {
@@ -396,11 +361,11 @@ public partial class DanhGiaRenLuyenContext : DbContext
             entity.ToTable("SumaryOfPoint");
 
             entity.Property(e => e.Classify).HasMaxLength(50);
-            entity.Property(e => e.CreateBy)
+            entity.Property(e => e.UserClass)
                 .HasMaxLength(10)
                 .IsUnicode(false)
                 .IsFixedLength();
-            entity.Property(e => e.CreateDate)
+            entity.Property(e => e.UserLecturer)
                 .HasMaxLength(10)
                 .IsUnicode(false)
                 .IsFixedLength();

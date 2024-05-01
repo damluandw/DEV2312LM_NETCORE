@@ -13,7 +13,9 @@ public partial class ClassAnswer
 
     public string? CreateBy { get; set; }
 
-    public virtual Answer? Answer { get; set; }
+    public DateTime? CreateDate { get; set; }
+
+    public virtual AnswerList? Answer { get; set; }
 
     public virtual Student? Student { get; set; }
 }

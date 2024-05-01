@@ -19,9 +19,9 @@ public partial class SumaryOfPoint
 
     public string? Classify { get; set; }
 
-    public string? CreateBy { get; set; }
+    public string? UserClass { get; set; }
 
-    public string? CreateDate { get; set; }
+    public string? UserLecturer { get; set; }
 
     public DateTime? UpdateDate { get; set; }
 

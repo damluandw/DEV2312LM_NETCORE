@@ -21,7 +21,9 @@ public partial class Semester
 
     public byte? IsActive { get; set; }
 
-    public virtual ICollection<Question> Questions { get; set; } = new List<Question>();
+    public virtual ICollection<QuestionHisory> QuestionHisories { get; set; } = new List<QuestionHisory>();
+
+    public virtual ICollection<SelfAnswer> SelfAnswers { get; set; } = new List<SelfAnswer>();
 
     public virtual ICollection<SumaryOfPoint> SumaryOfPoints { get; set; } = new List<SumaryOfPoint>();
 }

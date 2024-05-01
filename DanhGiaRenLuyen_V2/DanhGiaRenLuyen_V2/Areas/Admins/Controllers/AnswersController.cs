@@ -58,7 +58,7 @@ namespace DanhGiaRenLuyen_V2.Areas.Admins.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,QuestionId,ContentAnswer,AnswerScore")] Answer answer)
+        public async Task<IActionResult> Create([Bind("Id,QuestionId,ContentAnswer,AnswerScore")] AnswerList answer)
         {
             if (ModelState.IsValid)
             {
@@ -119,7 +119,7 @@ namespace DanhGiaRenLuyen_V2.Areas.Admins.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["QuestionId"] = new SelectList(_context.Questions, "Id", "ContentQuestion", answer.QuestionId);
+            ViewData["QuestionId"] = new SelectList(_context.Que, "Id", "ContentQuestion", answer.QuestionId);
             return View(answer);
         }
 
