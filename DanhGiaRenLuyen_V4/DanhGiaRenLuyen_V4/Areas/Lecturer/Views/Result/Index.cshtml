@@ -1,0 +1,52 @@
+﻿@using DanhGiaRenLuyen_V4.Models.DBModel
+
+@model IEnumerable<DanhGiaRenLuyen_V4.Models.DBModel.GroupQuestion>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Lecturer/Views/Shared/_LayoutLecturer.cshtml";
+    List<Semester> semesters = ViewBag.Semester;
+}
+<h5>Kết quả đánh giá cho sinh viên @ViewBag.StudentId</h5>
+<form asp-action="Index" method="get">
+    <label>Chọn kì học:</label>
+    <input type="hidden" name="studentId" value="@ViewBag.StudentId" />
+    <select name="semesterId" class="form-control">
+        @foreach (var item in semesters)
+        {
+            <option value="@item.Id">Kì @item.Name - Năm học @item.SchoolYear</option>
+        }
+    </select>
+    <input type="submit" value="Tìm kiếm" />
+</form>
+
+<h4>Đáp án sinh viên đã trả lời</h4>
+<hr />
+<div class="row">
+    <div class="col">
+        @foreach (var questionGroup in Model)
+        {
+            <h4>@questionGroup.Name</h4>
+            foreach (var question in questionGroup.QuestionLists)
+            {
+                <h6>@question.ContentQuestion</h6>
+                foreach (var answer in question.AnswerLists)
+                {
+                    foreach (var selfAnswer in answer.SelfAnswers)
+                    {
+
+                        <p class="form-check-label">@selfAnswer.Answer.ContentAnswer (@selfAnswer.Answer.AnswerScore điểm)</p>
+                        <br />
+
+                    }
+                }
+            }
+        }
+    </div>
+    <div class="col">
+        <h2>Tổng điểm tự đánh giá: @ViewBag.SumSelfPoint</h2>
+    </div>
+</div>
+
+
+

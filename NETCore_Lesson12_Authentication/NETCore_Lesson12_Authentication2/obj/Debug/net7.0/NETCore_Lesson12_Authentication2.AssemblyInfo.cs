@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NETCore_Lesson12_Authentication2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f70c59dce214d6a434d86100d4eb05ded9477e0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f568f58be989a8cc028d5effb84931613dcdad79")]
 [assembly: System.Reflection.AssemblyProductAttribute("NETCore_Lesson12_Authentication2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NETCore_Lesson12_Authentication2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

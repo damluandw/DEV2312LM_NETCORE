@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Lab\\NETCore_Lesson12_Lab.csproj": {}
+    "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Lab\\NETCore_Lesson12_Lab.csproj": {}
   },
   "projects": {
-    "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Lab\\NETCore_Lesson12_Lab.csproj": {
+    "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Lab\\NETCore_Lesson12_Lab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Lab\\NETCore_Lesson12_Lab.csproj",
+        "projectUniqueName": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Lab\\NETCore_Lesson12_Lab.csproj",
         "projectName": "NETCore_Lesson12_Lab",
-        "projectPath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Lab\\NETCore_Lesson12_Lab.csproj",
+        "projectPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Lab\\NETCore_Lesson12_Lab.csproj",
         "packagesPath": "C:\\Users\\Wind\\.nuget\\packages\\",
-        "outputPath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Lab\\obj\\",
+        "outputPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\NETCore_Lesson12_Authentication\\NETCore_Lesson12_Lab\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Wind\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

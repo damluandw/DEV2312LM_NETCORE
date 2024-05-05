@@ -8,45 +8,64 @@
 <h1>Create Questions</h1>
 
 <div class="row">
-    <div class="col-md-4 ms-5">
+    <div class="col-md-6 ms-5">
         <form asp-action="CreateQuestions">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" name="semesterId" value="@ViewBag.semesterId" />
 
             @foreach (var questionGroup in Model)
             {
-                <div class="d-flex justify-content-between">
-                    <label class="form-check-label" for="QuestionGroupId[@questionGroup.Id]">@questionGroup.Name </label>
-                    <input class="QuestionGroupId" type="checkbox" value="@questionGroup.Id" name="QuestionGroupId[@questionGroup.Id]" id="QuestionGroupId[@questionGroup.Id]">
-                </div>
-                foreach (var question in questionGroup.QuestionLists)
-                {
-                    <div class="d-flex justify-content-between question">
-
-                        <label class="form-check-label" for="QuestionId[@question.Id]">@question.ContentQuestion </label>
-                        <input class="QuestionId" type="checkbox" value="@question.Id" name="QuestionId[@question.Id]" id="QuestionId[@question.Id]">
+                <div>
+                    <div class="d-flex justify-content-between">
+                        <h4>@questionGroup.Name </h4>
+                        <div>
+                            <input class="questionGroupId" type="checkbox" value="@questionGroup.Id" name="QuestionGroupId[@questionGroup.Id]" id="QuestionGroupId[@questionGroup.Id]">
+                            <label class="questionGroupId form-check-label" for="QuestionGroupId[@questionGroup.Id]">Chọn tất cả </label>
+                        </div>
+                       
                     </div>
 
-                    <br />
-                    foreach (var answer in question.AnswerLists)
+                    @foreach (var question in questionGroup.QuestionLists)
                     {
-                        if (answer.Status == 1)
+                        var questionList = question.QuestionHisories.Where(x => x.SemesterId == @ViewBag.semesterId && x.QuestionId == question.Id).FirstOrDefault();
+                        @* questionList = question.QuestionHisories.Where(x => x.SemesterId == @ViewBag.semesterId ).FirstOrDefault(); *@
+                        @* var questionList = question.QuestionHisories.Where(x => x.QuestionId == question.Id).FirstOrDefault(); *@
+                        var checkBox = false;
+                        if (questionList != null)
                         {
-                            bool check = false;
+                            checkBox = true;
+                        }
+                        else
+                        {
+                            checkBox = false;
+                        }
+                       
+                        <div class="d-flex justify-content-between question">               
+                            <label class="form-check-label" for="QuestionId[@question.Id]">@question.ContentQuestion </label>
+                            <input class="questionId" type="checkbox" value="@question.Id" name="QuestionId[@question.Id]" id="QuestionId[@question.Id]" checked="@checkBox">
+                        </div>
 
-                            if (question.TypeQuestionId == 1)
+                        <br />
+                        foreach (var answer in question.AnswerLists)
+                        {
+                            if (answer.Status == 1)
                             {
-                                <input class="form-check-input" type="radio" id="AnswerId[@answer.Id]" checked="@check" value="@answer.Id" name="AnswerIds[@question.Id]" readonly>
+                              
+
+                                if (question.TypeQuestionId == 1)
+                                {
+                                    <input class="form-check-input" type="radio" id="AnswerId[@answer.Id]"  value="@answer.Id" name="AnswerIds[@question.Id]" readonly>
+                                }
+                                else
+                                {
+                                    <input class="form-check-input" type="checkbox" value="@answer.Id" name="AnswerId[@answer.Id]" id="AnswerId[@answer.Id]" readonly>
+                                }
+                                <label class="form-check-label" for="AnswerId[@answer.Id]" readonly>@answer.ContentAnswer (@answer.AnswerScore điểm)</label>
+                                <br />
                             }
-                            else
-                            {
-                                <input class="form-check-input" type="checkbox" value="@answer.Id" checked="@check" name="AnswerId[@answer.Id]" id="AnswerId[@answer.Id]" readonly>
-                            }
-                            <label class="form-check-label" for="AnswerId[@answer.Id]">@answer.ContentAnswer (@answer.AnswerScore điểm)</label>
-                            <br />
                         }
                     }
-                }
+                </div>
             }
             <div class="form-group">
                 <input type="submit" value="Gửi đánh giá" class="btn btn-primary" />
@@ -55,27 +74,19 @@
         </form>
     </div>
 </div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script>
     $(document).ready(function () {
-        debugger;
-        $('.QuestionGroupId').click(function () {
-            let qty = $(this).parent().children('.question').children('QuestionId').val();
-            // let price = parseFloat($(this).parent().parent().siblings('p').attr("data-price"));
-            // qty -= 1;
-            // let money = qty * price; // Tính thành tiền
-            // $(this).parent().siblings('.qty_input').val(qty);
-            // let id = $(this).parent().parent().parent().parent().siblings('.btn-action').children('.update').attr("data-id");
-            // let href = "/cart/Update/?id=" + id + "&quantity=" + qty; // link cập nhật sản    phẩm trong giỏ hàng
-            // $(this).parent().parent().parent().parent().siblings('.btn-action').children('.update').attr("href", href);
-            // $(this).parent().parent().siblings('p').attr("data-money", money);
-            // let total_money = formatMoney(money, 0, ",", ".");
+        //Chọn theo tất cả câu hỏi theo list
+        $('.questionGroupId').click(function () {
 
-            // $(this).parent().parent().siblings('p').children("span#money").text(total_money);
-            // let totalMoney = formatMoney(total(), 0, ",", ".");
-            // $("#totalMoney").text(totalMoney); // hiển thị tổng tiền
-            // $("#totalMoneyPay").text(totalMoney)// hiển thị tổng tiền
+            if ($(this).prop("checked")) {
+                $(this).parent().parent().siblings('.question').children('.questionId').prop("checked", true);
+            } else {
+                $(this).parent().parent().siblings('.question').children('.questionId').prop("checked", false);
+            }            
         })
-        // total();
+  
 
     });
 

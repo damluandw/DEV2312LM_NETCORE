@@ -1,0 +1,66 @@
+﻿@model IEnumerable<DanhGiaRenLuyen_V4.Models.DBModel.GroupQuestion>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Student/Views/Shared/_LayoutStudent.cshtml";
+}
+
+@if (ViewBag.semesterId == 1){
+<h4>Vui lòng trả lời đúng và đầy đủ các câu hỏi!!</h4>
+<hr />
+<div class="row">
+    <div class="">
+            <form asp-action="Submit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" name="semesterId" value="@ViewBag.semesterId" />
+            @foreach(var questionGroup in Model)
+            {
+                <h4>@questionGroup.Name</h4>
+                foreach(var question in questionGroup.QuestionLists){
+                    
+                    var questionList = question.QuestionHisories.Where(x => x.SemesterId == ViewBag.semesterId).FirstOrDefault();
+                    if (questionList != null)
+                    {
+                        <h6>@question.ContentQuestion</h6>
+                        foreach (var answer in question.AnswerLists)
+                        {
+                            if (answer.Status == 1)
+                            {
+                                bool check;
+                                if (answer.Checked == 1)
+                                {
+                                    check = true;
+                                }
+                                else
+                                {
+                                    check = false;
+                                }
+                                if (question.TypeQuestionId == 1)
+                                {
+                                    <input class="form-check-input" type="radio" id="answerId[@answer.Id]" checked="@check" value="@answer.Id" name="answerIds[@question.Id]">
+                                }
+                                else
+                                {
+                                    <input class="form-check-input" type="checkbox" value="@answer.Id" checked="@check" name="answerId[@answer.Id]" id="answerId[@answer.Id]">
+                                }
+                                <label class="form-check-label" for="answerId[@answer.Id]">@answer.ContentAnswer (@answer.AnswerScore điểm)</label>
+                                <br />
+                            }
+                        }
+                    }
+                }
+            }
+            <div class="form-group">
+                <input type="submit" value="Gửi đánh giá" class="btn btn-primary" />
+                </div>
+
+        </form>
+    </div>
+</div>
+}else
+{
+    <div class="alert alert-danger">
+    <h2>Bạn không thể sửa đánh giá của mình vì phiên tự đánh giá đã kết thúc! </h2>
+    </div>
+}
+
+
