@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{8EBC6A95-BB4B-41E3-B7E4-22004134D8E5}|DanhGiaRenLuyen_V4\\DanhGiaRenLuyen_V4.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v4\\danhgiarenluyen_v4\\areas\\admins\\views\\semesters\\createquestions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8EBC6A95-BB4B-41E3-B7E4-22004134D8E5}|DanhGiaRenLuyen_V4\\DanhGiaRenLuyen_V4.csproj|solutionrelative:danhgiarenluyen_v4\\areas\\admins\\views\\semesters\\createquestions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBC6A95-BB4B-41E3-B7E4-22004134D8E5}|DanhGiaRenLuyen_V4\\DanhGiaRenLuyen_V4.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v4\\danhgiarenluyen_v4\\areas\\admins\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EBC6A95-BB4B-41E3-B7E4-22004134D8E5}|DanhGiaRenLuyen_V4\\DanhGiaRenLuyen_V4.csproj|solutionrelative:danhgiarenluyen_v4\\areas\\admins\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,16 +38,27 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V4\\DanhGiaRenLuyen_V4\\Areas\\Admins\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V4\\Areas\\Admins\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V4\\DanhGiaRenLuyen_V4\\Areas\\Admins\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "DanhGiaRenLuyen_V4\\Areas\\Admins\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCgAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T16:48:58.012Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CreateQuestions.cshtml",
               "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V4\\DanhGiaRenLuyen_V4\\Areas\\Admins\\Views\\Semesters\\CreateQuestions.cshtml",
               "RelativeDocumentMoniker": "DanhGiaRenLuyen_V4\\Areas\\Admins\\Views\\Semesters\\CreateQuestions.cshtml",
               "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V4\\DanhGiaRenLuyen_V4\\Areas\\Admins\\Views\\Semesters\\CreateQuestions.cshtml",
               "RelativeToolTip": "DanhGiaRenLuyen_V4\\Areas\\Admins\\Views\\Semesters\\CreateQuestions.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAABNAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T16:20:54.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T16:20:54.657Z"
             },
             {
               "$type": "Document",
@@ -53,7 +68,7 @@
               "RelativeDocumentMoniker": "DanhGiaRenLuyen_V4\\Areas\\Admins\\Controllers\\SemestersController.cs",
               "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V4\\DanhGiaRenLuyen_V4\\Areas\\Admins\\Controllers\\SemestersController.cs",
               "RelativeToolTip": "DanhGiaRenLuyen_V4\\Areas\\Admins\\Controllers\\SemestersController.cs",
-              "ViewState": "AQIAAKQAAAAAAAAAAAAiwLkAAAAXAAAA",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAkwLgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T16:13:23.966Z",
               "EditorCaption": ""

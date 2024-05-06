@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DanhGiaRenLuyen_V4.Models.DBModel;
 using Newtonsoft.Json;
+using System.Runtime.CompilerServices;
+using DanhGiaRenLuyen_V4.Areas.Admins.Models;
 
 namespace DanhGiaRenLuyen_V4.Areas.Admins.Controllers
 {
@@ -63,7 +65,7 @@ namespace DanhGiaRenLuyen_V4.Areas.Admins.Controllers
                 await _context.SaveChangesAsync();
                 int semesterId = _context.Semesters.OrderByDescending(x => x.Id).FirstOrDefault().Id;
 
-                return RedirectToAction(nameof(CreateQuestions),new { id = semesterId });
+                return RedirectToAction(nameof(CreateQuestions), new { id = semesterId });
             }
             return View(semester);
         }
@@ -173,26 +175,22 @@ namespace DanhGiaRenLuyen_V4.Areas.Admins.Controllers
             return View(groupQuestions);
         }
         [HttpPost]
-        public IActionResult CreateQuestions(int semesterId,Dictionary<int, int> QuestionId)
+        public IActionResult CreateQuestions(int semesterId, Dictionary<int, int> QuestionId)
         {
             if (ModelState.IsValid)
             {
+                var admin = JsonConvert.DeserializeObject<Login>(HttpContext.Session.GetString("AdminLogin"));
+                string questionIds = "";
+                foreach (int question in QuestionId.Values)
+                {
+                    questionIds += question + ",";
+                }
+                questionIds = questionIds.Substring(0, questionIds.Length - 1);
+                string sql = "INSERT INTO QuestionHisory SELECT Id," + semesterId + ", OrderBy,'" + admin.UserName + "',GETDATE() FROM QuestionList where Id in (" + questionIds + ")";
+                FormattableString query = FormattableStringFactory.Create(sql);
+                var num = _context.Database.ExecuteSqlAsync(query);
 
-                
-                List<QuestionHisory> questionHistories = new List<QuestionHisory>();
-                //foreach (var item in QuestionId)
-                //{
-                //    questionHistories.Add(new QuestionHisory
-                //    {
-                //        QuestionId = studentId,
-                //        SemesterId = semesterId,
-                //        OrderBy =
-                //        CreateBy = student.UserName,
-                //        CreateDate = DateTime.Now,
-
-                //    });
-                //}
-                _context.SaveChanges();
+                //_context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
             return RedirectToAction(nameof(Index));

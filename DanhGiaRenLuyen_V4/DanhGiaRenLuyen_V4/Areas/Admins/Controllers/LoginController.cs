@@ -4,6 +4,7 @@ using DanhGiaRenLuyen_V4.Models;
 using System.Security.Cryptography;
 using System.Text;
 using DanhGiaRenLuyen_V4.Models.DBModel;
+using Newtonsoft.Json;
 
 namespace DanhGiaRenLuyen_V4.Areas.Admins.Controllers
 {
@@ -33,10 +34,11 @@ namespace DanhGiaRenLuyen_V4.Areas.Admins.Controllers
             //var pass = getHashSha256(model.Password);
             var pass = model.Password;
             var dataLogin = _context.AccountAdmins.Where(x=> x.UserName.Equals(model.UserName) && x.Password.Equals(pass)).FirstOrDefault();
+            var adminLogin = JsonConvert.SerializeObject(model);
             if(dataLogin != null)
             {
                 ViewBag.Login = "Đăng nhập thành công";
-                HttpContext.Session.SetString("AdminLogin", model.UserName);
+                HttpContext.Session.SetString("AdminLogin", adminLogin);
                 return RedirectToAction("Index", "Dashboard");
             }
             // Lưu session khi đăng nhập thành công
