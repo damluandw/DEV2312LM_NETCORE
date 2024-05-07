@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0A60C53F-56E1-4638-9DBC-08C624B9749D}|DanhGiaRenLuyen_V2\\DanhGiaRenLuyen_V2.csproj|d:\\devmaster\\dev\\dev2312lm_netcore\\danhgiarenluyen_v2\\danhgiarenluyen_v2\\areas\\admins\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A60C53F-56E1-4638-9DBC-08C624B9749D}|DanhGiaRenLuyen_V2\\DanhGiaRenLuyen_V2.csproj|solutionrelative:danhgiarenluyen_v2\\areas\\admins\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A60C53F-56E1-4638-9DBC-08C624B9749D}|DanhGiaRenLuyen_V2\\DanhGiaRenLuyen_V2.csproj|d:\\devmaster\\dev\\dev2312lm_netcore\\danhgiarenluyen_v2\\danhgiarenluyen_v2\\areas\\admins\\views\\questions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A60C53F-56E1-4638-9DBC-08C624B9749D}|DanhGiaRenLuyen_V2\\DanhGiaRenLuyen_V2.csproj|solutionrelative:danhgiarenluyen_v2\\areas\\admins\\views\\questions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A60C53F-56E1-4638-9DBC-08C624B9749D}|DanhGiaRenLuyen_V2\\DanhGiaRenLuyen_V2.csproj|d:\\devmaster\\dev\\dev2312lm_netcore\\danhgiarenluyen_v2\\danhgiarenluyen_v2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A60C53F-56E1-4638-9DBC-08C624B9749D}|DanhGiaRenLuyen_V2\\DanhGiaRenLuyen_V2.csproj|solutionrelative:danhgiarenluyen_v2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A60C53F-56E1-4638-9DBC-08C624B9749D}|DanhGiaRenLuyen_V2\\DanhGiaRenLuyen_V2.csproj|d:\\devmaster\\dev\\dev2312lm_netcore\\danhgiarenluyen_v2\\danhgiarenluyen_v2\\models\\dbmodel\\danhgiarenluyencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A60C53F-56E1-4638-9DBC-08C624B9749D}|DanhGiaRenLuyen_V2\\DanhGiaRenLuyen_V2.csproj|D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V2\\danhgiarenluyen_v2\\models\\dbmodel\\danhgiarenluyencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A60C53F-56E1-4638-9DBC-08C624B9749D}|DanhGiaRenLuyen_V2\\DanhGiaRenLuyen_V2.csproj|solutionrelative:danhgiarenluyen_v2\\models\\dbmodel\\danhgiarenluyencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,8 +42,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuestionsController.cs",
+              "DocumentMoniker": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V2\\DanhGiaRenLuyen_V2\\Areas\\Admins\\Controllers\\QuestionsController.cs",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V2\\Areas\\Admins\\Controllers\\QuestionsController.cs",
+              "ToolTip": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V2\\DanhGiaRenLuyen_V2\\Areas\\Admins\\Controllers\\QuestionsController.cs",
+              "RelativeToolTip": "DanhGiaRenLuyen_V2\\Areas\\Admins\\Controllers\\QuestionsController.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAcwEUAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T13:18:20.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V2\\DanhGiaRenLuyen_V2\\Areas\\Admins\\Views\\Questions\\Create.cshtml",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V2\\Areas\\Admins\\Views\\Questions\\Create.cshtml",
+              "ToolTip": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V2\\DanhGiaRenLuyen_V2\\Areas\\Admins\\Views\\Questions\\Create.cshtml",
+              "RelativeToolTip": "DanhGiaRenLuyen_V2\\Areas\\Admins\\Views\\Questions\\Create.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T13:17:55.603Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -50,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V2\\DanhGiaRenLuyen_V2\\Program.cs",
               "RelativeDocumentMoniker": "DanhGiaRenLuyen_V2\\Program.cs",
@@ -63,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "SumaryOfPointsController.cs",
               "DocumentMoniker": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V2\\DanhGiaRenLuyen_V2\\Areas\\Admins\\Controllers\\SumaryOfPointsController.cs",
               "RelativeDocumentMoniker": "DanhGiaRenLuyen_V2\\Areas\\Admins\\Controllers\\SumaryOfPointsController.cs",
@@ -75,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DanhGiaRenLuyenV3Context.cs",
               "DocumentMoniker": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V2\\DanhGiaRenLuyen_V2\\Models\\DBModel\\DanhGiaRenLuyenV3Context.cs",
               "RelativeDocumentMoniker": "DanhGiaRenLuyen_V2\\Models\\DBModel\\DanhGiaRenLuyenV3Context.cs",
@@ -87,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AnswersController.cs",
               "DocumentMoniker": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V2\\DanhGiaRenLuyen_V2\\Areas\\Admins\\Controllers\\AnswersController.cs",
               "RelativeDocumentMoniker": "DanhGiaRenLuyen_V2\\Areas\\Admins\\Controllers\\AnswersController.cs",
@@ -99,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DanhGiaRenLuyenContext.cs",
               "DocumentMoniker": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V2\\DanhGiaRenLuyen_V2\\Models\\DBModel\\DanhGiaRenLuyenContext.cs",
               "RelativeDocumentMoniker": "DanhGiaRenLuyen_V2\\Models\\DBModel\\DanhGiaRenLuyenContext.cs",
@@ -107,12 +141,11 @@
               "RelativeToolTip": "DanhGiaRenLuyen_V2\\Models\\DBModel\\DanhGiaRenLuyenContext.cs",
               "ViewState": "AQIAADwAAAAAAAAAAAAQwCYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T09:53:07.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-29T09:53:07.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V2\\DanhGiaRenLuyen_V2\\Areas\\Admins\\Views\\SumaryOfPoints\\Delete.cshtml",
               "RelativeDocumentMoniker": "DanhGiaRenLuyen_V2\\Areas\\Admins\\Views\\SumaryOfPoints\\Delete.cshtml",

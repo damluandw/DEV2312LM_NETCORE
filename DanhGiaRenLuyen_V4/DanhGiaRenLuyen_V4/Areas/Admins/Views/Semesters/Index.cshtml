@@ -38,36 +38,37 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SchoolYear)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DateOpenStudent)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DateEndStudent)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DateEndClass)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DateEndLecturer)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IsActive)
-            </td>
-            <td>
-                <a asp-action="CreateQuestions" asp-route-id="@item.Id">Create Questions</a> |
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SchoolYear)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateOpenStudent)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateEndStudent)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateEndClass)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateEndLecturer)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsActive)
+                </td>
+                <td>
+                    <a asp-action="CreateQuestionsSemester" asp-route-id="@item.Id">Create Questions</a> |
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

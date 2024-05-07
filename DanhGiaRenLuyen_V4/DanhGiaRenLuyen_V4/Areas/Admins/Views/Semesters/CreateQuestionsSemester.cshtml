@@ -1,0 +1,95 @@
+﻿@model IEnumerable<DanhGiaRenLuyen_V4.Models.DBModel.GroupQuestion>
+@using DanhGiaRenLuyen_V4.Common.Model;
+@{
+    ViewData["Title"] = "Edit Question";
+    Layout = "~/Areas/Admins/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Create Questions</h1>
+
+<div class="row">
+    <div class="col-md-6 ms-5">
+        <form asp-action="CreateQuestionsSemester">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" name="semesterId" value="@ViewBag.semesterId" />
+
+            @foreach (var questionGroup in Model)
+            {
+                <div>
+                    <div class="d-flex justify-content-between">
+                        <h4>@questionGroup.Name </h4>
+                        <div>
+                            <input class="questionGroupId" type="checkbox" value="@questionGroup.Id" name="QuestionGroupId[@questionGroup.Id]" id="QuestionGroupId[@questionGroup.Id]">
+                            <label class="questionGroupId form-check-label" for="QuestionGroupId[@questionGroup.Id]">Chọn tất cả </label>
+                        </div>
+                       
+                    </div>
+
+                    @foreach (var question in questionGroup.QuestionLists)
+                    {
+                        var questionList = question.QuestionHisories.Where(x => x.SemesterId == @ViewBag.semesterId && x.QuestionId == question.Id).FirstOrDefault();
+                        @* questionList = question.QuestionHisories.Where(x => x.SemesterId == @ViewBag.semesterId ).FirstOrDefault(); *@
+                        @* var questionList = question.QuestionHisories.Where(x => x.QuestionId == question.Id).FirstOrDefault(); *@
+                        var checkBox = false;
+                        if (questionList != null)
+                        {
+                            checkBox = true;
+                        }
+                        else
+                        {
+                            checkBox = false;
+                        }
+                       
+                        <div class="d-flex justify-content-between question">               
+                            <label class="form-check-label" for="QuestionId[@question.Id]">@question.ContentQuestion </label>
+                            <input class="questionId" type="checkbox" value="@question.Id" name="QuestionId[@question.Id]" id="QuestionId[@question.Id]" checked="@checkBox">
+                        </div>
+
+                        <br />
+                        foreach (var answer in question.AnswerLists)
+                        {
+                            if (answer.Status == 1)
+                            {
+
+
+                                if (question.TypeQuestionId == (int)EnumTypeQuestion.cauHoiChon1)
+                                {
+                                    <input class="form-check-input" type="radio" id="AnswerId[@answer.Id]"  value="@answer.Id" name="AnswerIds[@question.Id]" readonly>
+                                }
+                                else
+                                {
+                                    <input class="form-check-input" type="checkbox" value="@answer.Id" name="AnswerId[@answer.Id]" id="AnswerId[@answer.Id]" readonly>
+                                }
+                                <label class="form-check-label" for="AnswerId[@answer.Id]" readonly>@answer.ContentAnswer (@answer.AnswerScore điểm)</label>
+                                <br />
+                            }
+                        }
+                    }
+                </div>
+            }
+            <div class="form-group">
+                <input type="submit" value="Thêm câu hỏi vào kỳ mới" class="btn btn-primary" />
+            </div>
+            <div class="form-group">
+                <a asp-controller="QuestionLists" asp-action="Create">Edit</a>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        //Chọn theo tất cả câu hỏi theo list
+        $('.questionGroupId').click(function () {
+
+            if ($(this).prop("checked")) {
+                $(this).parent().parent().siblings('.question').children('.questionId').prop("checked", true);
+            } else {
+                $(this).parent().parent().siblings('.question').children('.questionId').prop("checked", false);
+            }            
+        })
+  
+
+    });
+
+</script>

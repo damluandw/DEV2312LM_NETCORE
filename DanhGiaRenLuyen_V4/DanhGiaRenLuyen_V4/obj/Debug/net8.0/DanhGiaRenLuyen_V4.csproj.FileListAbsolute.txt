@@ -644,3 +644,5 @@ D:\03.DEVMASTER\Code\DEV2312LM_NETCORE\DanhGiaRenLuyen_V4\DanhGiaRenLuyen_V4\obj
 D:\03.DEVMASTER\Code\DEV2312LM_NETCORE\DanhGiaRenLuyen_V4\DanhGiaRenLuyen_V4\obj\Debug\net8.0\ref\DanhGiaRenLuyen_V4.dll
 D:\03.DEVMASTER\Code\DEV2312LM_NETCORE\DanhGiaRenLuyen_V4\DanhGiaRenLuyen_V4\obj\Debug\net8.0\scopedcss\Areas\Lecturer\Views\Shared\_LayoutLecturer.cshtml.rz.scp.css
 D:\03.DEVMASTER\Code\DEV2312LM_NETCORE\DanhGiaRenLuyen_V4\DanhGiaRenLuyen_V4\obj\Debug\net8.0\scopedcss\Areas\Student\Views\Shared\_LayoutStudent.cshtml.rz.scp.css
+D:\Devmaster\DEV\DEV2312LM_NETCORE\DanhGiaRenLuyen_V4\DanhGiaRenLuyen_V4\obj\Debug\net8.0\scopedcss\Areas\Lecturer\Views\Shared\_LayoutLecturer.cshtml.rz.scp.css
+D:\Devmaster\DEV\DEV2312LM_NETCORE\DanhGiaRenLuyen_V4\DanhGiaRenLuyen_V4\obj\Debug\net8.0\scopedcss\Areas\Student\Views\Shared\_LayoutStudent.cshtml.rz.scp.css
