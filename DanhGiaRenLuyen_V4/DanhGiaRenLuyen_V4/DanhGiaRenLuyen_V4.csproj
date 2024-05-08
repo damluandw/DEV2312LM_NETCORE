@@ -25,4 +25,35 @@
     <Folder Include="Areas\Student\Models\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="Areas\Lecturer\Views\DGRL\Index.cshtml" />
+    <None Include="Areas\Lecturer\Views\DGRL\Status.cshtml" />
+    <None Include="Areas\Lecturer\Views\Home\Index.cshtml" />
+    <None Include="Areas\Lecturer\Views\Login\Index.cshtml" />
+    <None Include="Areas\Lecturer\Views\Result\Class.cshtml" />
+    <None Include="Areas\Lecturer\Views\Result\Index.cshtml" />
+    <None Include="Areas\Lecturer\Views\Result\Lecturer.cshtml" />
+    <None Include="Areas\Lecturer\Views\Shared\Components\ST\Default.cshtml" />
+    <None Include="Areas\Lecturer\Views\Shared\Error.cshtml" />
+    <None Include="Areas\Lecturer\Views\Shared\_LayoutLecturer.cshtml" />
+    <None Include="Areas\Lecturer\Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="Areas\Lecturer\Views\Student\Index.cshtml" />
+    <None Include="Areas\Lecturer\Views\_ViewImports.cshtml" />
+    <None Include="Areas\Lecturer\Views\_ViewStart.cshtml" />
+    <None Include="Areas\Student\Views\DGRL\Index.cshtml" />
+    <None Include="Areas\Student\Views\DGRL\Index1.cshtml" />
+    <None Include="Areas\Student\Views\History\Class.cshtml" />
+    <None Include="Areas\Student\Views\History\History.cshtml" />
+    <None Include="Areas\Student\Views\History\Self.cshtml" />
+    <None Include="Areas\Student\Views\Home\Index.cshtml" />
+    <None Include="Areas\Student\Views\Login\Index.cshtml" />
+    <None Include="Areas\Student\Views\LT_DGRL\Index.cshtml" />
+    <None Include="Areas\Student\Views\Shared\Components\Student\Default.cshtml" />
+    <None Include="Areas\Student\Views\Shared\Error.cshtml" />
+    <None Include="Areas\Student\Views\Shared\_LayoutStudent.cshtml" />
+    <None Include="Areas\Student\Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="Areas\Student\Views\_ViewImports.cshtml" />
+    <None Include="Areas\Student\Views\_ViewStart.cshtml" />
+  </ItemGroup>
+
 </Project>
