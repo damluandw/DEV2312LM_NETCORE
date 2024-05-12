@@ -1,0 +1,83 @@
+﻿@model IEnumerable<DanhGiaRenLuyen_V5.Models.DBModel.Class>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Lớp học</h1>
+<form asp-action="Index">
+    <div class="form-group">
+        <label>Chọn chuyên ngành</label>
+        <select name="departmentId" class="form-control" asp-items="ViewBag.DepartmentId">
+            <option value="">Tất cả</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Chọn khoá học</label>
+        <select name="coursesId" class="form-control" asp-items="ViewBag.CoursesId">
+            <option value="">Tất cả</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <input name="name" value="@ViewBag.Name" class="form-control" placeholder="Nhập tên lớp học"/>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Tìm kiếm" class="btn btn-primary" />
+    </div>
+</form>
+<p>
+    <a asp-action="Create">Tạo mới</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Course.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Department.Name)
+            </th>
+            <th>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Course.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Department.Name)
+            </td>
+                @if(item.IsActive == 1)
+                {
+                    <td>
+                        <a class="btn btn-outline-danger" asp-action="Passive" asp-route-classId="@item.Id">Dừng hoạt động</a>
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        <a class="btn btn-outline-success" asp-action="Active" asp-route-classId="@item.Id">Cho phép hoạt động</a>
+                    </td>
+                }
+                <td>
+                <a asp-action="Details" asp-route-id="@item.Id">Chi tiết</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Kết thúc lớp học</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

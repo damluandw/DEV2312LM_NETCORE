@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DanhGiaRenLuyen_V5.props" />
+</Project>

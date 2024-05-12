@@ -1,0 +1,11 @@
+﻿@model DanhGiaRenLuyen_V5.Models.DBModel.Semester
+@{
+    ViewData["Title"] = "Status";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="alert alert-danger">
+    <h2>Kì @Model.Name năm học @Model.SchoolYear chưa kết thúc! Không thể bắt đầu hay thay đổi 1 kì đánh giá</h2>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Chỉnh sửa</a>
+</div>
+
