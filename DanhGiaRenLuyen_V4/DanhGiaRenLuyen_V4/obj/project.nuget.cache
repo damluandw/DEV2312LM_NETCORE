@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0Nxgh7uhUhqOV2L4rg0F0+6L0oqvvPj5f6BBFoSoUbzhBNpCUy/BNL609tChnY6O1q8/9Mw/1LdDIVIv6ps6ig==",
+  "dgSpecHash": "nMBhHMQaRaHPMY6RAIBk2UepmKFRETGa56UZi8J56arCBHnSbqQV0ANp5Tg3UMj4A0vMbya+T0rMtaBnJt8sWw==",
   "success": true,
-  "projectFilePath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V4\\DanhGiaRenLuyen_V4\\DanhGiaRenLuyen_V4.csproj",
+  "projectFilePath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V4\\DanhGiaRenLuyen_V4\\DanhGiaRenLuyen_V4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wind\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Wind\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

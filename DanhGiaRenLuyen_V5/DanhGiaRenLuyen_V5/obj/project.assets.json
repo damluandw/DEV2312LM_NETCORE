@@ -7845,11 +7845,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj",
+      "projectUniqueName": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj",
       "projectName": "DanhGiaRenLuyen_V5",
-      "projectPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj",
+      "projectPath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj",
       "packagesPath": "C:\\Users\\Wind\\.nuget\\packages\\",
-      "outputPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\obj\\",
+      "outputPath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Wind\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7927,7 +7927,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
