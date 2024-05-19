@@ -1,0 +1,75 @@
+﻿@model IEnumerable<DanhGiaRenLuyen_V6.Models.DBModel.QuestionList>
+@using DanhGiaRenLuyen_V6.Models.DBModel;
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+    List<Semester> semesters = ViewBag.Semester;
+    int stt = 1;
+}
+
+<h1>Bộ câu hỏi</h1>
+
+<p>
+    <a asp-action="Create">Tạo câu hỏi mới</a>
+    <form asp-action="SelectAll">
+        <input type="hidden" name="list" value="false"  />
+        <label>Sử dụng bộ câu hỏi kì</label>
+        <select name ="semesterId">
+            @foreach (var item in semesters)
+            {
+                <option value="@item.Id">Kì @item.Name - Năm học @item.SchoolYear</option>
+            }
+        </select>
+        <input type="submit" value="Chọn" class="btn btn-outline-dark" />
+    </form>
+    <a asp-action="SelectAll" asp-route-list="false" class="btn btn-warning">Chọn tất cả</a>
+    <a asp-action="List" style="position:absolute; right: 10%;">Hiển thị dưới dạng câu hỏi</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                STT
+            </th>
+            <th>
+                Nội dung
+            </th>
+            <th>
+                Trạng thái
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @stt
+                @{stt++;}
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContentQuestion)
+            </td>
+                @if(item.Status == 1)
+                {
+                    <td><a asp-action="UnSet" asp-route-questionId="@item.Id" class="btn btn-danger" asp-route-list="false">Bỏ chọn</a></td>
+                }else{
+                    <td><a asp-action="Set" asp-route-questionId="@item.Id" class="btn btn-success" asp-route-list="false">Chọn</a></td>
+                }
+            <td>
+                    <a asp-controller="AnswerLists" asp-action="Index" asp-route-questionId="@item.Id">Xem câu trả lời</a>
+
+                @if(item.IsEdit == true)
+                {
+                    <i class="text-danger">Câu hỏi này không thể chỉnh sửa do đã được sử dụng</i>
+                }else{
+                    <a asp-action="Edit" asp-route-id="@item.Id">Chỉnh sửa</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id">Xoá</a>
+                }
+                <a class="text-warning" asp-action="Details" asp-route-id="@item.Id">Chi tiết</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,27 @@
+﻿@model IEnumerable<DanhGiaRenLuyen_V6.Models.DBModel.Department>
+<li class="nav-item">
+    <a href="#" class="nav-link">
+        <i class="nav-icon fas fa-tree"></i>
+        <p>
+            Báo cáo đánh giá rèn luyện
+            <i class="fas fa-angle-left right"></i>
+        </p>
+    </a>
+    <ul class="nav nav-treeview">
+        @foreach (var item in Model)
+        {
+            <li class="nav-item">
+                <a asp-controller="Report" asp-action="Index" asp-route-departmentId="@item.Id" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>@item.Name</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a asp-controller="Report" asp-action="ExportExcel" asp-route-departmentId="@item.Id" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Excel @item.Name</p>
+                </a>
+            </li>
+        }
+    </ul>
+</li>

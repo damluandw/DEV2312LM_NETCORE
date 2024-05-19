@@ -1,0 +1,270 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v6\\danhgiarenluyen_v6\\areas\\admin\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|solutionrelative:danhgiarenluyen_v6\\areas\\admin\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v6\\danhgiarenluyen_v6\\areas\\admin\\views\\report\\exportexcel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|solutionrelative:danhgiarenluyen_v6\\areas\\admin\\views\\report\\exportexcel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v6\\danhgiarenluyen_v6\\common\\converttodatatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|solutionrelative:danhgiarenluyen_v6\\common\\converttodatatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v6\\danhgiarenluyen_v6\\common\\exporttoexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|solutionrelative:danhgiarenluyen_v6\\common\\exporttoexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v6\\danhgiarenluyen_v6\\areas\\admin\\views\\shared\\components\\report\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|solutionrelative:danhgiarenluyen_v6\\areas\\admin\\views\\shared\\components\\report\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v6\\danhgiarenluyen_v6\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|solutionrelative:danhgiarenluyen_v6\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v6\\danhgiarenluyen_v6\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|solutionrelative:danhgiarenluyen_v6\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v6\\danhgiarenluyen_v6\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|solutionrelative:danhgiarenluyen_v6\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v6\\danhgiarenluyen_v6\\models\\dbmodel\\danhgiarenluyencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|solutionrelative:danhgiarenluyen_v6\\models\\dbmodel\\danhgiarenluyencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v6\\danhgiarenluyen_v6\\areas\\student\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|solutionrelative:danhgiarenluyen_v6\\areas\\student\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v6\\danhgiarenluyen_v6\\areas\\admin\\controllers\\positionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|solutionrelative:danhgiarenluyen_v6\\areas\\admin\\controllers\\positionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v6\\danhgiarenluyen_v6\\areas\\admin\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|solutionrelative:danhgiarenluyen_v6\\areas\\admin\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v6\\danhgiarenluyen_v6\\areas\\admin\\controllers\\accountlecturerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|solutionrelative:danhgiarenluyen_v6\\areas\\admin\\controllers\\accountlecturerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v6\\danhgiarenluyen_v6\\areas\\student\\controllers\\dgrlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CB94242-F3DA-4BE6-B710-F4F935AA30EB}|DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6.csproj|solutionrelative:danhgiarenluyen_v6\\areas\\student\\controllers\\dgrlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConvertToDataTable.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Common\\ConvertToDataTable.cs",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V6\\Common\\ConvertToDataTable.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Common\\ConvertToDataTable.cs",
+              "RelativeToolTip": "DanhGiaRenLuyen_V6\\Common\\ConvertToDataTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:21:14.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExportToExcel.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Common\\ExportToExcel.cs",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V6\\Common\\ExportToExcel.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Common\\ExportToExcel.cs",
+              "RelativeToolTip": "DanhGiaRenLuyen_V6\\Common\\ExportToExcel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwIcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T14:05:15.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Areas\\Admin\\Views\\Shared\\Components\\Report\\Default.cshtml",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V6\\Areas\\Admin\\Views\\Shared\\Components\\Report\\Default.cshtml",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Areas\\Admin\\Views\\Shared\\Components\\Report\\Default.cshtml",
+              "RelativeToolTip": "DanhGiaRenLuyen_V6\\Areas\\Admin\\Views\\Shared\\Components\\Report\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T13:58:01.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExportExcel.cshtml",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Areas\\Admin\\Views\\Report\\ExportExcel.cshtml",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V6\\Areas\\Admin\\Views\\Report\\ExportExcel.cshtml",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Areas\\Admin\\Views\\Report\\ExportExcel.cshtml",
+              "RelativeToolTip": "DanhGiaRenLuyen_V6\\Areas\\Admin\\Views\\Report\\ExportExcel.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T13:57:14.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Areas\\Admin\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V6\\Areas\\Admin\\Controllers\\ReportController.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Areas\\Admin\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "DanhGiaRenLuyen_V6\\Areas\\Admin\\Controllers\\ReportController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwC4AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:44:49.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\appsettings.json",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V6\\appsettings.json",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\appsettings.json",
+              "RelativeToolTip": "DanhGiaRenLuyen_V6\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-19T12:43:17.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V6\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "DanhGiaRenLuyen_V6\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-19T12:28:10.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V6\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DanhGiaRenLuyen_V6\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T13:36:21.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DanhGiaRenLuyenContext.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Models\\DBModel\\DanhGiaRenLuyenContext.cs",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V6\\Models\\DBModel\\DanhGiaRenLuyenContext.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Models\\DBModel\\DanhGiaRenLuyenContext.cs",
+              "RelativeToolTip": "DanhGiaRenLuyen_V6\\Models\\DBModel\\DanhGiaRenLuyenContext.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAewDkAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:26:09.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Areas\\Student\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V6\\Areas\\Student\\Views\\Student\\Index.cshtml",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Areas\\Student\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "DanhGiaRenLuyen_V6\\Areas\\Student\\Views\\Student\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T12:54:05.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PositionsController.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Areas\\Admin\\Controllers\\PositionsController.cs",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V6\\Areas\\Admin\\Controllers\\PositionsController.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Areas\\Admin\\Controllers\\PositionsController.cs",
+              "RelativeToolTip": "DanhGiaRenLuyen_V6\\Areas\\Admin\\Controllers\\PositionsController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAQwFYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:54:46.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Areas\\Admin\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V6\\Areas\\Admin\\Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Areas\\Admin\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "DanhGiaRenLuyen_V6\\Areas\\Admin\\Controllers\\StudentsController.cs",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAtwK4AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:55:10.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AccountLecturersController.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Areas\\Admin\\Controllers\\AccountLecturersController.cs",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V6\\Areas\\Admin\\Controllers\\AccountLecturersController.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Areas\\Admin\\Controllers\\AccountLecturersController.cs",
+              "RelativeToolTip": "DanhGiaRenLuyen_V6\\Areas\\Admin\\Controllers\\AccountLecturersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:44:07.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DGRLController.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Areas\\Student\\Controllers\\DGRLController.cs",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V6\\Areas\\Student\\Controllers\\DGRLController.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V6\\DanhGiaRenLuyen_V6\\Areas\\Student\\Controllers\\DGRLController.cs",
+              "RelativeToolTip": "DanhGiaRenLuyen_V6\\Areas\\Student\\Controllers\\DGRLController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:42:15.379Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

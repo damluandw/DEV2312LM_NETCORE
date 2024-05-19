@@ -1,0 +1,91 @@
+﻿@using DanhGiaRenLuyen_V6.Models.DBModel
+@model IEnumerable<DanhGiaRenLuyen_V6.Models.DBModel.GroupQuestion>
+@{
+    ViewData["Title"] = "kết quả đánh giá";
+    Layout = "~/Areas/Lecturer/Views/Shared/_LayoutLecturer.cshtml";
+    List<ClassAnswer> classAnswers = ViewBag.ClassAnswer;
+    List<Semester> semesters = ViewBag.Semester;
+    var semester = semesters.Where(x => x.Id == ViewBag.SemesterId).FirstOrDefault();
+}
+<div class="row">
+    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+        <div class="col openMenu">
+            <a href="#" onclick="w3_close()"
+               class="w3-bar-item w3-button"><i class="fa-solid fa-outdent"></i> Trở về</a>
+            @await Component.InvokeAsync("ST")
+        </div>
+    </nav>
+
+    <!-- Top menu -->
+    <div class="">
+        <div class="" style="max-width:1200px;margin:auto">
+            <div class="menuStudent" onclick="w3_open()">☰</div>
+        </div>
+    </div>
+    @await Component.InvokeAsync("InforStudents", new { id = ViewBag.Id })
+    <h4 class="text-center">Kết quả cán bộ lớp đánh giá kì @semester.Name năm học @semester.SchoolYear</h4>
+    <div class="">
+        <h5 style="color:green;">Tổng điểm tự đánh giá: @ViewBag.SumSelfPoint  <a asp-controller="Result" asp-action="Index" asp-route-studentId="@ViewBag.Id" asp-route-semesterId="@ViewBag.SemesterId">Xem chi tiết</a></h6></h5>
+        <h5 style="color:green;">Tổng điểm cán bộ lớp đánh giá cho sinh viên: @ViewBag.SumClassPoint</h5>
+    </div>
+     <div class="col">
+        <hr />
+        <form asp-action="Class" method="get">
+            <label>Chọn kì học:</label>
+            <input type="hidden" name="studentId" value="@ViewBag.Id" />
+            <select name="semesterId" class="form-control">
+                @foreach (var item in semesters)
+                {
+                    <option value="@item.Id">Kì @item.Name - Năm học @item.SchoolYear</option>
+                }
+            </select>
+            <input type="submit" value="Tìm kiếm" />
+        </form>
+        <div class="row">
+            <div class="">
+                @if (ViewBag.SumClassPoint != 0)
+                {
+                    @foreach (var questionGroup in Model)
+                    {
+                        <h4>@questionGroup.Name</h4>
+                        foreach (var question in questionGroup.QuestionLists)
+                        {
+                            <h6>@question.ContentQuestion</h6>
+                            foreach (var answer in question.AnswerLists)
+                            {
+                                if(answer.IsEdit == true){
+                                    bool check;
+                                    if (answer.Checked == 1)
+                                    {
+                                        check = true;
+                                    }
+                                    else
+                                    {
+                                        check = false;
+                                    }
+                                    if (question.TypeQuestionId == 1)
+                                    {
+                                        <input class="form-check-input" type="radio" id="answerId[@answer.Id]" checked="@check" value="@answer.Id" name="answerIds[@question.Id]" onclick="return false;">
+                                    }
+                                    else
+                                    {
+                                        <input class="form-check-input" type="checkbox" value="@answer.Id" checked="@check" name="answerId[@answer.Id]" id="answerId[@answer.Id]" onclick="return false;">
+                                    }
+                                    <label class="form-check-label" for="answerId[@answer.Id]">@answer.ContentAnswer (@answer.AnswerScore điểm)</label>
+                                    <br />
+                                }
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    <p class="text-danger">Không tồn tại kết quả đánh giá kì @semester.Name năm học @semester.SchoolYear</p>
+                }
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

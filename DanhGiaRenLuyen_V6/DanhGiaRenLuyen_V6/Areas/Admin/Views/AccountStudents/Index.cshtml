@@ -1,0 +1,49 @@
+﻿@model IEnumerable<DanhGiaRenLuyen_V6.Models.DBModel.AccountStudent>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Quản lí tài khoản</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Student.FullName)
+            </th>
+            <th>
+                
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Student.FullName)
+            </td>
+                @if(item.IsActive == 1)
+                {
+                    <td><a asp-controller="AccountStudents" asp-action="Passive" asp-route-msv ="@item.StudentId" asp-route-accId ="@item.Id" class="btn btn-outline-danger">Ngừng kích hoạt</a></td>
+                }
+                else
+                {
+                    <td><a asp-controller="AccountStudents" asp-action="Active" asp-route-msv="@item.StudentId" asp-route-accId="@item.Id" class="btn btn-outline-success">Kích hoạt</a></td>
+                }
+            <td>
+                    <a asp-action="ResetPassword" asp-route-msv="@item.StudentId" asp-route-accId="@item.Id">Đặt lại mật khẩu</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

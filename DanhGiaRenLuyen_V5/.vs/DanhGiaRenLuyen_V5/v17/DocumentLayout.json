@@ -1,38 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\",
+  "WorkspaceRootPath": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|d:\\devmaster\\dev\\dev2312lm_netcore\\danhgiarenluyen_v5\\danhgiarenluyen_v5\\areas\\student\\views\\dgrl\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v5\\danhgiarenluyen_v5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|solutionrelative:danhgiarenluyen_v5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v5\\danhgiarenluyen_v5\\areas\\student\\views\\dgrl\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|solutionrelative:danhgiarenluyen_v5\\areas\\student\\views\\dgrl\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|d:\\devmaster\\dev\\dev2312lm_netcore\\danhgiarenluyen_v5\\danhgiarenluyen_v5\\areas\\student\\controllers\\dgrlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v5\\danhgiarenluyen_v5\\areas\\student\\controllers\\dgrlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|solutionrelative:danhgiarenluyen_v5\\areas\\student\\controllers\\dgrlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\danhgiarenluyen_v5\\models\\dbmodel\\danhgiarenluyencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v5\\danhgiarenluyen_v5\\models\\dbmodel\\danhgiarenluyencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|solutionrelative:danhgiarenluyen_v5\\models\\dbmodel\\danhgiarenluyencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\danhgiarenluyen_v5\\areas\\admin\\controllers\\accountlecturerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v5\\danhgiarenluyen_v5\\areas\\admin\\controllers\\accountlecturerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|solutionrelative:danhgiarenluyen_v5\\areas\\admin\\controllers\\accountlecturerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|d:\\devmaster\\dev\\dev2312lm_netcore\\danhgiarenluyen_v5\\danhgiarenluyen_v5\\areas\\admin\\viewcomponents\\departmentviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v5\\danhgiarenluyen_v5\\areas\\admin\\viewcomponents\\departmentviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|solutionrelative:danhgiarenluyen_v5\\areas\\admin\\viewcomponents\\departmentviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\danhgiarenluyen_v5\\areas\\lecturer\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v5\\danhgiarenluyen_v5\\areas\\lecturer\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|solutionrelative:danhgiarenluyen_v5\\areas\\lecturer\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\danhgiarenluyen_v5\\areas\\admin\\views\\accountlecturers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|d:\\03.devmaster\\code\\dev2312lm_netcore\\danhgiarenluyen_v5\\danhgiarenluyen_v5\\areas\\admin\\views\\accountlecturers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|solutionrelative:danhgiarenluyen_v5\\areas\\admin\\views\\accountlecturers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\danhgiarenluyen_v5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{41811B4E-607A-40CA-9D4E-C641F2F664A6}|DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5.csproj|solutionrelative:danhgiarenluyen_v5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,11 +58,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Student\\Views\\DGRL\\Index.cshtml",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Student\\Views\\DGRL\\Index.cshtml",
               "RelativeDocumentMoniker": "DanhGiaRenLuyen_V5\\Areas\\Student\\Views\\DGRL\\Index.cshtml",
-              "ToolTip": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Student\\Views\\DGRL\\Index.cshtml",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Student\\Views\\DGRL\\Index.cshtml",
               "RelativeToolTip": "DanhGiaRenLuyen_V5\\Areas\\Student\\Views\\DGRL\\Index.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAACsAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -71,93 +71,88 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DGRLController.cs",
-              "DocumentMoniker": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Student\\Controllers\\DGRLController.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Student\\Controllers\\DGRLController.cs",
               "RelativeDocumentMoniker": "DanhGiaRenLuyen_V5\\Areas\\Student\\Controllers\\DGRLController.cs",
-              "ToolTip": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Student\\Controllers\\DGRLController.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Student\\Controllers\\DGRLController.cs",
               "RelativeToolTip": "DanhGiaRenLuyen_V5\\Areas\\Student\\Controllers\\DGRLController.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAA5wAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T12:08:33.66Z",
+              "WhenOpened": "2024-05-13T12:08:33.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DepartmentViewComponent.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Admin\\ViewComponents\\DepartmentViewComponent.cs",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V5\\Areas\\Admin\\ViewComponents\\DepartmentViewComponent.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Admin\\ViewComponents\\DepartmentViewComponent.cs",
+              "RelativeToolTip": "DanhGiaRenLuyen_V5\\Areas\\Admin\\ViewComponents\\DepartmentViewComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T11:53:21.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Lecturer\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V5\\Areas\\Lecturer\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Lecturer\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "DanhGiaRenLuyen_V5\\Areas\\Lecturer\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T11:53:19.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Admin\\Views\\AccountLecturers\\Create.cshtml",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V5\\Areas\\Admin\\Views\\AccountLecturers\\Create.cshtml",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Admin\\Views\\AccountLecturers\\Create.cshtml",
+              "RelativeToolTip": "DanhGiaRenLuyen_V5\\Areas\\Admin\\Views\\AccountLecturers\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T11:47:32.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DanhGiaRenLuyenContext.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Models\\DBModel\\DanhGiaRenLuyenContext.cs",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V5\\Models\\DBModel\\DanhGiaRenLuyenContext.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Models\\DBModel\\DanhGiaRenLuyenContext.cs",
+              "RelativeToolTip": "DanhGiaRenLuyen_V5\\Models\\DBModel\\DanhGiaRenLuyenContext.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAA2wDUAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T11:46:48.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\appsettings.json",
+              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V5\\appsettings.json",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\appsettings.json",
+              "RelativeToolTip": "DanhGiaRenLuyen_V5\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-13T11:44:44.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DepartmentViewComponent.cs",
-              "DocumentMoniker": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Admin\\ViewComponents\\DepartmentViewComponent.cs",
-              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V5\\Areas\\Admin\\ViewComponents\\DepartmentViewComponent.cs",
-              "ToolTip": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Admin\\ViewComponents\\DepartmentViewComponent.cs",
-              "RelativeToolTip": "DanhGiaRenLuyen_V5\\Areas\\Admin\\ViewComponents\\DepartmentViewComponent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T11:53:21.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Lecturer\\Controllers\\BaseController.cs",
-              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V5\\Areas\\Lecturer\\Controllers\\BaseController.cs",
-              "ToolTip": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Lecturer\\Controllers\\BaseController.cs",
-              "RelativeToolTip": "DanhGiaRenLuyen_V5\\Areas\\Lecturer\\Controllers\\BaseController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T11:53:19.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Admin\\Views\\AccountLecturers\\Create.cshtml",
-              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V5\\Areas\\Admin\\Views\\AccountLecturers\\Create.cshtml",
-              "ToolTip": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Admin\\Views\\AccountLecturers\\Create.cshtml",
-              "RelativeToolTip": "DanhGiaRenLuyen_V5\\Areas\\Admin\\Views\\AccountLecturers\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T11:47:32.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DanhGiaRenLuyenContext.cs",
-              "DocumentMoniker": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Models\\DBModel\\DanhGiaRenLuyenContext.cs",
-              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V5\\Models\\DBModel\\DanhGiaRenLuyenContext.cs",
-              "ToolTip": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Models\\DBModel\\DanhGiaRenLuyenContext.cs",
-              "RelativeToolTip": "DanhGiaRenLuyen_V5\\Models\\DBModel\\DanhGiaRenLuyenContext.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAA2wDUAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T11:46:48.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\appsettings.json",
-              "RelativeDocumentMoniker": "DanhGiaRenLuyen_V5\\appsettings.json",
-              "ToolTip": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\appsettings.json",
-              "RelativeToolTip": "DanhGiaRenLuyen_V5\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-13T11:44:44.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "AccountLecturersController.cs",
-              "DocumentMoniker": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Admin\\Controllers\\AccountLecturersController.cs",
+              "DocumentMoniker": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Admin\\Controllers\\AccountLecturersController.cs",
               "RelativeDocumentMoniker": "DanhGiaRenLuyen_V5\\Areas\\Admin\\Controllers\\AccountLecturersController.cs",
-              "ToolTip": "D:\\Devmaster\\DEV\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Admin\\Controllers\\AccountLecturersController.cs",
+              "ToolTip": "D:\\03.DEVMASTER\\Code\\DEV2312LM_NETCORE\\DanhGiaRenLuyen_V5\\DanhGiaRenLuyen_V5\\Areas\\Admin\\Controllers\\AccountLecturersController.cs",
               "RelativeToolTip": "DanhGiaRenLuyen_V5\\Areas\\Admin\\Controllers\\AccountLecturersController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:09:00.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T15:09:00.059Z"
             }
           ]
         }

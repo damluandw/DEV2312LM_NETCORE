@@ -1,0 +1,133 @@
+﻿@model IEnumerable<DanhGiaRenLuyen_V6.Models.DBModel.Students>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Danh sách sinh viên</h1>
+<form asp-action="Index" method="get">
+    <input type="hidden" name="isDelete" value="@ViewBag.IsDelete.ToString()" />
+    <input type="hidden" name="departmentId" value="@ViewBag.DepartmentId" />
+    <div class="form-group">
+        <select name="classId" class="form-control" asp-items="@ViewBag.ClassId">
+            <option selected>Tất cả</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <input name="name" class="form-control" value="@ViewBag.Name" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Tìm kiếm" class="btn btn-primary" />
+    </div>
+</form>
+@if (ViewBag.IsDelete == false)
+{
+    <p>
+        <a asp-action="Create" asp-route-departmentId="@ViewBag.DepartmentId">Thêm mới</a>
+    </p>
+}
+else
+{
+    <h3 class="text-danger">Danh sách ẩn</h3>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Birthday)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Class.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Position.Name)
+            </th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Birthday)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+                @if(item.Gender == true)
+                {
+                    <td>
+                        Nữ
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        Nam
+                    </td>
+                }
+                @if(item.IsActive == 1)
+                {
+                    <td>Đang học</td>
+                }else if(item.IsActive == 2)
+                {
+                    <td>Bảo lưu</td>
+                }else if(item.IsActive == 3)
+                {
+                    <td>Tốt nghiệp</td>
+                }
+                else
+                {
+                    <td>Thôi học</td>
+                }
+            <td>
+                @Html.DisplayFor(modelItem => item.Class.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Position.Name)
+            </td>
+
+            <td>
+
+
+                    <a asp-action="Edit" asp-route-id="@item.Id" asp-route-departmentId="@item.Class.DepartmentId" asp-route-isDelete="@ViewBag.IsDelete">Sửa</a> <span>|</span>
+                    <a asp-action="Details" asp-route-id="@item.Id" asp-route-departmentId="@item.Class.DepartmentId" asp-route-isDelete="@ViewBag.IsDelete">Chi tiết</a><span>|</span>
+                    <a asp-controller="AccountStudents" asp-action="Index" asp-route-msv="@item.Id" asp-route-isDelete="@ViewBag.IsDelete">Tài khoản</a>
+
+            </td>
+            <td>
+                @if (ViewBag.IsDelete == false)
+                {
+                    <a asp-action="Delete" asp-route-id="@item.Id" asp-route-departmentId="@item.Class.DepartmentId">Ẩn</a> 
+                }else{
+                   <a asp-action="Show" asp-route-id="@item.Id" asp-route-departmentId="@item.Class.DepartmentId">Hiển thị</a> <span>|</span>
+                   <a asp-action="Remove" asp-route-departmentId="@item.Class.DepartmentId" asp-route-id="@item.Id">Xoá</a>
+                }
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
